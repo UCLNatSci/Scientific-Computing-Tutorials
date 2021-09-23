@@ -42,6 +42,8 @@
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -51,6 +53,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Tutorial 4" href="../Tutorial_4/tutorial_4.html" />
+    <link rel="prev" title="Tutorial 2" href="../Tutorial_2/tutorial_2.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -83,11 +87,16 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../intro.html">
-   Welcome to your Jupyter Book
+   NSCI0007 Scientific Computing Workbook
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Before_you_begin/getting_started.html">
+   Before You Begin: Jupyter Notebooks
+  </a>
+ </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../Tutorial_1/tutorial_1.html">
    Tutorial 1
@@ -96,6 +105,26 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../Tutorial_2/tutorial_2.html">
    Tutorial 2
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Tutorial 3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_4/tutorial_4.html">
+   Tutorial 4
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_5/tutorial_5.html">
+   Tutorial 5
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_6/tutorial_6.html">
+   Tutorial 6
   </a>
  </li>
 </ul>
@@ -239,6 +268,11 @@
      Question 2
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Question 3
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -258,7 +292,7 @@
 <h2>Practice Questions<a class="headerlink" href="#practice-questions" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="question-1">
 <h3>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline">¶</a></h3>
-<p>Use a loop to generate the following lists:</p>
+<p>Use a <code class="docutils literal notranslate"><span class="pre">for</span></code> loop to generate the following lists:</p>
 <ol class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">[5,</span> <span class="pre">7,</span> <span class="pre">9,</span> <span class="pre">11,</span> <span class="pre">13,</span> <span class="pre">15]</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">[1,</span> <span class="pre">10,</span> <span class="pre">100,</span> <span class="pre">1000,</span> <span class="pre">10000,</span> <span class="pre">100000]</span></code></p></li>
@@ -269,12 +303,13 @@
 <h3>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline">¶</a></h3>
 <p>Look up the predicted daily maximum and minimum temperatures for the next 10 days according to the BBC weather forecast.</p>
 <p><a class="reference external" href="https://www.bbc.co.uk/weather/2643743">https://www.bbc.co.uk/weather/2643743</a></p>
-<p>Create two lists to store the maximum and minimum temperatures and plot them as two separate lines on a line graph, including axis labels and title. Look up how to add a legend.</p>
-<img src="temperatures.png" width="400px"/></div>
+<p>Create two lists containing the maximum and minimum temperatures and plot them as two separate lines on a line graph, including axis labels and title. Look up how to add a legend.</p>
+<a class="reference internal image-reference" href="../_images/temperatures.png"><img alt="../_images/temperatures.png" src="../_images/temperatures.png" style="width: 300px;" /></a>
+</div>
 <div class="section" id="question-3">
 <h3>Question 3<a class="headerlink" href="#question-3" title="Permalink to this headline">¶</a></h3>
 <p>The following code initialises a list <code class="docutils literal notranslate"><span class="pre">x</span></code> with ten random integers, then prints <code class="docutils literal notranslate"><span class="pre">x</span></code>.</p>
-<p>Write code which prints four lines of output, containing</p>
+<p>Write code which creates four lists, containing:</p>
 <ul class="simple">
 <li><p>Every element of <code class="docutils literal notranslate"><span class="pre">x</span></code> at an even index.</p></li>
 <li><p>Every even element.</p></li>
@@ -312,14 +347,27 @@
 </div>
 <div class="section" id="id2">
 <h3>Question 2<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>TODO: rewrite this</p>
+</div></blockquote>
 <p>A cannon located at position <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">0</span></code> fires a cannonball at an angle <code class="docutils literal notranslate"><span class="pre">theta</span></code> from the horizontal (measured in radians) and speed <code class="docutils literal notranslate"><span class="pre">speed</span></code> m/s. Write a program which plots a graph of the cannonball’s trajectory.</p>
-<p><img src="cannon.jpg" width="200px"></img></p>
+<a class="reference internal image-reference" href="../_images/cannon.jpg"><img alt="../_images/cannon.jpg" src="../_images/cannon.jpg" style="width: 200px;" /></a>
 <p>Set the initial positions <code class="docutils literal notranslate"><span class="pre">x</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span></code> to zero and velocities <code class="docutils literal notranslate"><span class="pre">vx</span></code> and <code class="docutils literal notranslate"><span class="pre">vy</span></code> to <code class="docutils literal notranslate"><span class="pre">np.cos(theta)</span></code> and <code class="docutils literal notranslate"><span class="pre">np.sin(theta)</span></code>. Each time step, update the positions using <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">x</span> <span class="pre">+</span> <span class="pre">vx</span> <span class="pre">*</span> <span class="pre">DELTA_T</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span> <span class="pre">=</span> <span class="pre">y</span> <span class="pre">+</span> <span class="pre">vy</span> <span class="pre">*</span> <span class="pre">DELTA_T</span></code>. Update the velocity <code class="docutils literal notranslate"><span class="pre">vy</span> <span class="pre">=</span> <span class="pre">vy</span> <span class="pre">-</span> <span class="pre">g</span> <span class="pre">*</span> <span class="pre">DELTA_T</span></code>. The x velocity remains constant.
 Create lists <code class="docutils literal notranslate"><span class="pre">x_list</span></code> and <code class="docutils literal notranslate"><span class="pre">y_list</span></code> to store the x and y positions, appending the new positions at each timestep.</p>
 <p>Repeat until the <code class="docutils literal notranslate"><span class="pre">y</span></code> position becomes negative (what kind of loop should you use for this?). Finally, use <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> to plot the two lists.</p>
 <p>Extend your program so that it prints <code class="docutils literal notranslate"><span class="pre">hit</span></code> or <code class="docutils literal notranslate"><span class="pre">miss</span></code> depending if the cannonball lands less than 20m from a target placed at a distance <code class="docutils literal notranslate"><span class="pre">dis</span></code> from the cannon.</p>
-<p><img src="cannon_output.png" width="200px"></img></p>
+<a class="reference internal image-reference" href="../_images/cannon_output.png"><img alt="../_images/cannon_output.png" src="../_images/cannon_output.png" style="width: 200px;" /></a>
 <p><code class="docutils literal notranslate"><span class="pre">hit</span></code></p>
+</div>
+<div class="section" id="id3">
+<h3>Question 3<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Recall the Collatz Operation from the first week:</p>
+<ul class="simple">
+<li><p>If <code class="docutils literal notranslate"><span class="pre">n</span></code> is even, divide it by two</p></li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">n</span></code> is odd, triple it and add one</p></li>
+</ul>
+<p>If we repeatedly apply the operation, we get a sequence of integers which terminates at the number 1. We define the ‘Collatz number’ of an integer <span class="math notranslate nohighlight">\(n\)</span> to be the number of iterations in the sequence.</p>
+<p>Write a program which generates a line graph with integers 0 … 100 on the x-axis, and Collatz number on the y axis.</p>
 </div>
 </div>
 </div>
@@ -353,6 +401,24 @@ Create lists <code class="docutils literal notranslate"><span class="pre">x_list
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="../Tutorial_2/tutorial_2.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Tutorial 2</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../Tutorial_4/tutorial_4.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Tutorial 4</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         

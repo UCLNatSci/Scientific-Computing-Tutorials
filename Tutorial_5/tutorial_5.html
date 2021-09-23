@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tutorial 4 &#8212; My sample book</title>
+    <title>Tutorial 5 &#8212; My sample book</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -42,6 +42,8 @@
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -51,6 +53,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Tutorial 6" href="../Tutorial_6/tutorial_6.html" />
+    <link rel="prev" title="Tutorial 4" href="../Tutorial_4/tutorial_4.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -83,11 +87,16 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../intro.html">
-   Welcome to your Jupyter Book
+   NSCI0007 Scientific Computing Workbook
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Before_you_begin/getting_started.html">
+   Before You Begin: Jupyter Notebooks
+  </a>
+ </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../Tutorial_1/tutorial_1.html">
    Tutorial 1
@@ -96,6 +105,26 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../Tutorial_2/tutorial_2.html">
    Tutorial 2
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_3/tutorial_3.html">
+   Tutorial 3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_4/tutorial_4.html">
+   Tutorial 4
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Tutorial 5
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_6/tutorial_6.html">
+   Tutorial 6
   </a>
  </li>
 </ul>
@@ -202,26 +231,46 @@
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Tutorial 4
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#practice-questions">
+   Practice Questions
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#practice-questions">
-     Practice Questions
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#question-1">
+     Question 1
     </a>
    </li>
   </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id1">
-   Tutorial 4
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#question-2">
+   Question 2
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
-     Practice Questions
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tutorial-questions">
+   Tutorial Questions
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#part-1">
+     Part 1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#part-2">
+     Part 2
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#part-3">
+     Part 3
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#part-4">
+     Part 4
     </a>
    </li>
   </ul>
@@ -237,16 +286,159 @@
         
               <div>
                 
-  <div class="section" id="tutorial-4">
-<h1>Tutorial 4<a class="headerlink" href="#tutorial-4" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="tutorial-5">
+<h1>Tutorial 5<a class="headerlink" href="#tutorial-5" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="practice-questions">
 <h2>Practice Questions<a class="headerlink" href="#practice-questions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="question-1">
+<h3>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline">¶</a></h3>
+<p>Create a 2 by 3 numpy array containing the following data:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+10 &amp; 12 &amp; 13\\
+5 &amp; 6 &amp; 7
+\end{bmatrix}
+\end{split}\]</div>
+<p>Use slice notation to create one-dimensional arrays containing:</p>
+<ol class="simple">
+<li><p>The first row</p></li>
+<li><p>The last column</p></li>
+</ol>
+<p>Calculate:</p>
+<ol class="simple">
+<li><p>A 3 element array containing the sum of each of the three columns</p></li>
+<li><p>A 2 element array containing the sum of each of the two rows</p></li>
+</ol>
 </div>
 </div>
-<div class="section" id="id1">
-<h1>Tutorial 4<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="id2">
-<h2>Practice Questions<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="question-2">
+<h2>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline">¶</a></h2>
+<p>A particle follows a trajectory given by the following equations between <span class="math notranslate nohighlight">\(t=0\)</span>s and <span class="math notranslate nohighlight">\(t = 10\)</span>s:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+x = 4\sin(7t)\\
+y = 4\cos(6t)
+\end{split}\]</div>
+<p>Use <code class="docutils literal notranslate"><span class="pre">np.arange</span></code> to create an array <code class="docutils literal notranslate"><span class="pre">t</span></code> containing 100 evenly spaced time points from 0 to 10. Calculate arrays <code class="docutils literal notranslate"><span class="pre">x</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span></code> containing the x and y co-ordinates, then plot the x and y co-ordinates against time on the same graph. On a separate graph, plot x against y.</p>
+</div>
+<div class="section" id="tutorial-questions">
+<h2>Tutorial Questions<a class="headerlink" href="#tutorial-questions" title="Permalink to this headline">¶</a></h2>
+<p>The purpose of this question is to simulate the trajectory of an object under gravity. The question adapts and extends the techniques for solving differential equations explained in the ‘Linear Oscillator’ example. Make sure you can understand that example before attempting this question.</p>
+<p>See the accompanying file <code class="docutils literal notranslate"><span class="pre">gravity_notes.ipynb</span></code> for a derivation of the equations of motion of an object moving under gravity.</p>
+<div class="section" id="part-1">
+<h3>Part 1<a class="headerlink" href="#part-1" title="Permalink to this headline">¶</a></h3>
+<p>First you will consider the one-dimensional case of a projectile fired vertically from the surface of The Earth. Does it fall back to earth or does it escape into space?</p>
+<p>A projectile at distance <span class="math notranslate nohighlight">\(x\)</span> from the centre of the Earth and moving at a velocity <span class="math notranslate nohighlight">\(v\)</span> in a vertical direction moves according to the following coupled pair of differential equations:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{align*}
+\frac{dx}{dt} &amp;= v\\
+\frac{dv}{dt} &amp;= -\frac{Gm_\mathrm{e}}{x^2}
+\end{align*}\end{split}\]</div>
+<p>Determine the update rule which calculates <span class="math notranslate nohighlight">\(x_{i+1}\)</span> and <span class="math notranslate nohighlight">\(v_{i+1}\)</span> from <span class="math notranslate nohighlight">\(x_{i}\)</span> and <span class="math notranslate nohighlight">\(v_{i}\)</span>, then adapt the linear oscillator example to calculate the trajectory of the projectile. Plot the trajectory as distance <code class="docutils literal notranslate"><span class="pre">x</span></code> against time <code class="docutils literal notranslate"><span class="pre">t</span></code> and determine at what time the projectile returns to The Earth’s surface.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>duration</p></td>
+<td><p><span class="math notranslate nohighlight">\(10000~\mathrm{s}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>time step</p></td>
+<td><p><span class="math notranslate nohighlight">\(1~\mathrm{s}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p>mass of Earth</p></td>
+<td><p><span class="math notranslate nohighlight">\(5.972 \times 10^{24}~\mathrm{kg}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>radius of Earth</p></td>
+<td><p><span class="math notranslate nohighlight">\(6.371~\times 10^6~\mathrm{m}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p>initial velocity</p></td>
+<td><p><span class="math notranslate nohighlight">\(5000~\mathrm{m}/\mathrm{s}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>gravitational constant</p></td>
+<td><p><span class="math notranslate nohighlight">\(6.674 \times 10^{11}~\mathrm{Nm}^2/\mathrm{kg}^2\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Hint</strong> you should exit the loop (using the <code class="docutils literal notranslate"><span class="pre">break</span></code> keyword) once the projectile’s position falls below the surface of the earth.</p>
+</div>
+<div class="section" id="part-2">
+<h3>Part 2<a class="headerlink" href="#part-2" title="Permalink to this headline">¶</a></h3>
+<p>By experimenting with different values of <span class="math notranslate nohighlight">\(v_0\)</span>, find an estimate of The Earth’s escape velocity (the minimum initial velocity that results in the projectile escaping into space).</p>
+<p>(You will have to increase the duration of the simulation. You might need to increase the time step <span class="math notranslate nohighlight">\(\Delta t\)</span> in order for the simulation to run in a reasonable time - but this will decrease the accuracy. Experiment!)</p>
+</div>
+<div class="section" id="part-3">
+<h3>Part 3<a class="headerlink" href="#part-3" title="Permalink to this headline">¶</a></h3>
+<p>The previous example only considered motion in one dimension. In this part you will extend to two dimensions.</p>
+<p>Consider a projectile fired horizontally from the surface of the earth. Its position <span class="math notranslate nohighlight">\(\mathbf{x} = (x_1, x_2)\)</span> relative to the centre of The Earth and its velocity is <span class="math notranslate nohighlight">\(\mathbf{v} = (v_1, v_2)\)</span>. The distance between the projectile and the centre of The Earth is <span class="math notranslate nohighlight">\(r = \sqrt{x_1^2 + x_2^2}\)</span>.</p>
+<p>The vector equations governing its motion are:
+$<span class="math notranslate nohighlight">\(\begin{align*}
+\frac{d\mathbf{x}}{dt} &amp;= \mathbf{v}\\
+\frac{d\mathbf{v}}{dt} &amp;= -\frac{Gm_\mathrm{e}}{r^3}\mathbf{x}
+\end{align*}\)</span>$</p>
+<p>Defining a timestep <span class="math notranslate nohighlight">\(\Delta t\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split} \begin{align*}
+\mathbf{x}_{i+1} &amp;= \mathbf{x}_i + \mathbf{v}_i\Delta t\\
+\mathbf{v}_{i+1} &amp;= \mathbf{v}_i -\frac{Gm_\mathrm{e}}{r^3}\mathbf{x_i}\Delta t
+\end{align*}\end{split}\]</div>
+<p>Since <span class="math notranslate nohighlight">\(\mathbf{x}_i\)</span> and <span class="math notranslate nohighlight">\(\mathbf{x}_i\)</span> and are 2-dimensional vectors, <code class="docutils literal notranslate"><span class="pre">x</span></code> and <code class="docutils literal notranslate"><span class="pre">v</span></code> are now 2 by <code class="docutils literal notranslate"><span class="pre">n_steps</span></code> numpy arrays, where <code class="docutils literal notranslate"><span class="pre">x[0,i]</span></code> and <code class="docutils literal notranslate"><span class="pre">x[1,i]</span></code> are <span class="math notranslate nohighlight">\(x_1\)</span> and <span class="math notranslate nohighlight">\(x_2\)</span> co-ordinates of the projectile at timestep <code class="docutils literal notranslate"><span class="pre">i</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_steps</span><span class="p">))</span>
+<span class="n">v</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_steps</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>The update step for the position <code class="docutils literal notranslate"><span class="pre">x</span></code> becomes:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="p">[:,</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">x</span><span class="p">[:,</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">v</span><span class="p">[:,</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">delta_t</span>
+</pre></div>
+</div>
+<p>Determine the code for the update step for the velocity <code class="docutils literal notranslate"><span class="pre">v</span></code> (hint: first calculate the value of the scalar quantity <code class="docutils literal notranslate"><span class="pre">r</span></code>).</p>
+<p>Use this code to write a simulation of the trajectory of the projectile. Create three plots of its trajectory, <span class="math notranslate nohighlight">\(x_1\)</span> against <span class="math notranslate nohighlight">\(t\)</span>, <span class="math notranslate nohighlight">\(x_2\)</span> against <span class="math notranslate nohighlight">\(t\)</span>, and <span class="math notranslate nohighlight">\(x_1\)</span> against <span class="math notranslate nohighlight">\(x_2\)</span>.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>duration</p></td>
+<td><p><span class="math notranslate nohighlight">\(10000~\mathrm{s}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>time step</p></td>
+<td><p><span class="math notranslate nohighlight">\(1~\mathrm{s}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p>mass of Earth</p></td>
+<td><p><span class="math notranslate nohighlight">\(5.972 \times 10^{24}~\mathrm{kg}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>radius of Earth</p></td>
+<td><p><span class="math notranslate nohighlight">\(6.371~\times 10^6~\mathrm{m}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p>initial velocity (horizontal)</p></td>
+<td><p><span class="math notranslate nohighlight">\(10000~\mathrm{m}/\mathrm{s}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>initial velocity (vertical)</p></td>
+<td><p><span class="math notranslate nohighlight">\(0~\mathrm{m}/\mathrm{s}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p>gravitational constant</p></td>
+<td><p><span class="math notranslate nohighlight">\(6.674 \times 10^{11}~\mathrm{Nm}^2/\mathrm{kg}^2\)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="part-4">
+<h3>Part 4<a class="headerlink" href="#part-4" title="Permalink to this headline">¶</a></h3>
+<p>The kinetic energy (in Joules) of the projectile is given by the equation</p>
+<div class="math notranslate nohighlight">
+\[ E_\mathrm{K} = \frac{1}{2}{mv}^2\]</div>
+<p>where <span class="math notranslate nohighlight">\(m\)</span> is the mass of the projectile and <span class="math notranslate nohighlight">\(v\)</span> is the magnitude of its velocity.</p>
+<p>Its potential energy (in Joules) is given by:</p>
+<div class="math notranslate nohighlight">
+\[ E_\mathrm{P} = -\frac{Gm_\mathrm{e}mv}{r}\]</div>
+<p>where <span class="math notranslate nohighlight">\(r\)</span> is the distance between the projectile and the centre of The Earth.</p>
+<p>Use array slicing and vector operations to calculate one-dimensional arrays <code class="docutils literal notranslate"><span class="pre">E_K</span></code> and <code class="docutils literal notranslate"><span class="pre">E_P</span></code> representing the kinetic and potential energies of the projectile (i.e. <code class="docutils literal notranslate"><span class="pre">E_K[i]</span></code> is the kinetic energy at time point <code class="docutils literal notranslate"><span class="pre">i</span></code>). Plot <code class="docutils literal notranslate"><span class="pre">E_K</span></code>, <code class="docutils literal notranslate"><span class="pre">E_P</span></code> and the total energy <code class="docutils literal notranslate"><span class="pre">E_K</span></code> + <code class="docutils literal notranslate"><span class="pre">E_P</span></code> on the same graph. Add suitable x and y labels and a legend.</p>
+</div>
 </div>
 </div>
 
@@ -279,6 +471,24 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="../Tutorial_4/tutorial_4.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Tutorial 4</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../Tutorial_6/tutorial_6.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Tutorial 6</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         
