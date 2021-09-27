@@ -7,7 +7,7 @@ We will be using an online platform called `Cocalc` to run and edit `notebooks` 
 Follow the the instruction below to create a Cocalc account and run a notebook file.
 
 ```{note}
-To set up collaboration, you first need to find a partner. You can do this now, in your first tutorial.
+To set up collaboration, you first need to find a partner.
 ```
 
 ### Step 1: Set up your Cocalc Project
