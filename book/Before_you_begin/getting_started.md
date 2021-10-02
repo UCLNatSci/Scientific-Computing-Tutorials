@@ -41,7 +41,7 @@ Your project is essentially a virtual computer hosted in the cloud, and it comes
 
 ### Step 2: Open the Week 1 Folder
 
->Click on the `Tutorials` folder then the `Workshop 1` folder.
+>Click on the `Tutorials` folder then the `Before_you_begin` folder.
 
 ```{note}
 Cocalc
