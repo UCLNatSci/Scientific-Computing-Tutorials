@@ -336,3 +336,11 @@ anim.save('hurricane_irma.mp4', writer = 'ffmpeg', fps=30)
 After running the code, a new file `hurricane_irma.mp4` will appear in the `Before_you_begin` folder (be patient, the code might take a little time to run).
 
 > Click on the file `hurricane_irma.mp4` to view the movie.
+
+### Step 8 (Optional Challenge): Bermuda Triangle 
+
+Adapt the `Hurricane.ipynb` notebook so that it plots the vertices of the [Bermuda Triangle](https://en.wikipedia.org/wiki/Bermuda_Triangle).
+ 
+- Create a new file `Bermuda_Triangle.ipynb` by duplicating the `Hurricane.ipynb` file.
+- Create a new file `bermuda.csv` containing the co-ordinates of the vertices of the Bermuda Triangle. You should do this by adapting the file `irma.csv`. Estimate the co-ordinates of the three vertices from the Wikipedia article or elsewhere.
+- Edit the code in `Bermuda_Triangle.ipynb` so that it loads data from `bermuda.csv`
