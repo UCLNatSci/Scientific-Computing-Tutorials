@@ -1,14 +1,23 @@
-# Before You Begin: Jupyter Notebooks
+# Before You Begin
 
 We will be using an online platform called `Cocalc` to run and edit `notebooks` which run `Python` code. `Cocalc` is a collaborative computing platform, which means that you can interactively share your code with other users of the platform.
+
+```{admonition} What you will learn
+:class: tip
+After completing this worksheet, you will be able to:
+- Access your Cocalc project
+- Add collaborators to your project
+- Run and edit Jupyter Notebooks
+- Create a Jupyter Notebook from scratch
+```
+
+```{note}
+While you can complete this worksheet on your own, you are encouraged to do it in collaboration with a partner. You will later be working on a collaborative group project, so understanding Cocalc's many collaboration features will be important.
+```
 
 ## Part 1: Editing and Running Notebooks
 
 Follow the the instruction below to create a Cocalc account and run a notebook file.
-
-```{note}
-To set up collaboration, you first need to find a partner.
-```
 
 ### Step 1: Set up your Cocalc Project
 
@@ -16,14 +25,14 @@ To set up collaboration, you first need to find a partner.
 
 1. Navigate to the Cocalc web site www.cocalc.com.
 1. Click 'Sign In'
-1. Create an account using your UCL email address userID@ucl.ac.uk (e.g. zcqxxxx@ucl.ac.uk)
-1. You should see a Project titled something like '[your name] - NSCI0010_21_22'. If you don't, this might be because you didn't use the correct email address in step 3.
+1. Create an account using your UCL email address `firstname.surname.20@ucl.ac.uk`.
+1. You should see a Project titled something like '[your name] - NSCI0007_21_22'. If you don't, this might be because you didn't use the correct email address in step 3.
 1. Click 'Account' in the top-right hand corner.
 1. Enter your first and last names. You can also change your profile picture and other settings if you wish.
 1. Click 'Projects' in the top-left corner.
-1. To add your partner as a collaborator, click on your name then enter your partner's full name or email address (in the form zcqxxxx@ucl.ac.uk) in the box.
+1. To add your partner as a collaborator, click on your name then enter your partner's full name or email address (in the form `firstname.surname.20@ucl.ac.uk`) in the box.
 
-Your project is essentially a virtual computer hosted in the cloud, and it comes preinstalled with all the software and tools you need to get Python programming straight away!
+Your project is essentially a virtual computer hosted in the cloud, and it comes preinstalled with all the software and tools you need to get Python programming straight away.
 
 > Test that you have set up your collaboration correctly:
 
@@ -34,7 +43,6 @@ Your project is essentially a virtual computer hosted in the cloud, and it comes
 
 >Click on the `Tutorials` folder then the `Workshop 1` folder.
 
-```{margin}
 ```{note}
 Cocalc
 : The online platform we will be using, providing access to virtual computers hosted in the cloud.
@@ -220,7 +228,6 @@ print("NY y pos:", y_NY)
 
 This is a lot of code, but don't worry. You don't understand what each line is doing.
 
-```{margin}
 ```{note}
 Comments
 : The Python interpreter ignores any text that appears after the `#` symbol. These lines are **comments** and I have added them to explain what the Python code is doing.
@@ -276,7 +283,6 @@ print("y-coords:", y)
 
 This code opens the data file and reads the latitude and longitude from each row. It then translates each to pixel coordinates and appends the values to the two lists `x` and `y` (and don't worry, you won't understand this code yet).
 
-```{margin}
 ```{note}
 Indentation  
 : A peculiar feature of Python is the use of indentation to separate code blocks (other languages use curly brackets `{` and `}` or `begin ... end`). The above example has two levels of identation, one below the `with` statement and one below the `for` statement, each idented by exacly four space characters.
