@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Scientific Computing
+title: Scientific Computing Workbook
 author: Natural Sciences
-logo: 50.jpg
+logo: nsci0007_logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -30,7 +30,6 @@ repository:
 html:
   use_issues_button: false
   use_repository_button: false
-  extra_navbar: false
 
 parse:
   myst_enable_extensions:

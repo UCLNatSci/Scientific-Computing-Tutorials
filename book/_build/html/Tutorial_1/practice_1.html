@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tutorial 1 &#8212; Scientific Computing</title>
+    <title>Practice 1 &#8212; Scientific Computing</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -53,6 +53,7 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Before You Begin" href="../Before_you_begin/getting_started.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -89,14 +90,14 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../Before_you_begin/getting_started.html">
    Before You Begin
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="practice_1.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Practice 1
   </a>
  </li>
@@ -141,7 +142,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Tutorial_1/tutorial_1.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/Tutorial_1/practice_1.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -166,7 +167,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Tutorial_1/tutorial_1.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Tutorial_1/practice_1.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -204,8 +205,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#question-4-the-collatz-problem">
-   Question 4 (The Collatz Problem)
+  <a class="reference internal nav-link" href="#question-4">
+   Question 4
   </a>
  </li>
 </ul>
@@ -219,64 +220,68 @@
         
               <div>
                 
-  <div class="section" id="tutorial-1">
-<h1>Tutorial 1<a class="headerlink" href="#tutorial-1" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="practice-1">
+<h1>Practice 1<a class="headerlink" href="#practice-1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="question-1">
 <h2>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline">¶</a></h2>
-<p>A time <code class="docutils literal notranslate"><span class="pre">t</span></code> in seconds can be converted to days, hours, minutes and seconds using integer division:</p>
-<ol class="simple">
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 60; set <code class="docutils literal notranslate"><span class="pre">t</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">s</span></code>.</p></li>
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 60; set <code class="docutils literal notranslate"><span class="pre">t</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">m</span></code>.</p></li>
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 24; set <code class="docutils literal notranslate"><span class="pre">d</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">h</span></code>.</p></li>
-</ol>
-<p>Calculate the number of days, hours, minutes and seconds in one million seconds. Display the result as follows:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1000000</span> <span class="n">seconds</span> <span class="ow">is</span> <span class="n">xx</span> <span class="n">days</span> <span class="n">H</span><span class="p">:</span><span class="n">M</span><span class="p">:</span><span class="n">S</span>
+<p>Recall the definition of factorial of a number <span class="math notranslate nohighlight">\(n\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[n! = n \times (n-1) \times \ldots \times 2 \times 1\]</div>
+<p>Use the following pseudocode to calculate the factorial of 10.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Set n to 10
+Set f to 1
+Repeat until n is 1:
+ - Set f to f times n
+ - Decrease n by 1
+Print f
 </pre></div>
 </div>
 </div>
 <div class="section" id="question-2">
 <h2>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline">¶</a></h2>
-<p>Iodine-131 is a radioisotope with a half-life <span class="math notranslate nohighlight">\(t_\mathrm{half} = 8.02\)</span> days.</p>
-<ol class="simple">
-<li><p>Use the equation <span class="math notranslate nohighlight">\(r = \left(\frac{1}{2}\right) ^ {1/t_\mathrm{half}}\)</span> to calculate the daily decay rate (i.e. the proportion of a sample of Iodine 131 that decays in one day).</p></li>
-<li><p>A sample of radioactive material containing Iodine-131 has an activity of <span class="math notranslate nohighlight">\(1.67 \times 10^{12}\)</span> Becquerels. Write a program which calculates the number of days it takes for the sample to reach an activity of <span class="math notranslate nohighlight">\(10000\)</span> Becquerels.</p></li>
-<li><p>Print the activity of the sample once every 7 days.</p></li>
-</ol>
+<p>Find the ‘pseudocode’ box in the notes. Write Python code which implements the program described there.</p>
+<blockquote>
+<div><p>The value of a loan increases by 1.3% every month, except in December when it is reduced by 100 pounds. How many months will it take for a 1000 pound loan to reach 2000 pounds?</p>
+</div></blockquote>
+<p>What if the monthly interest rate is changed to 0.8%?</p>
 </div>
 <div class="section" id="question-3">
 <h2>Question 3<a class="headerlink" href="#question-3" title="Permalink to this headline">¶</a></h2>
-<p>We can calculate how many digits there are in a number by repeatedly dividing by 10 until the number is less than one.</p>
-<ol class="simple">
-<li><p>Write peudo-code for this calculation.</p></li>
-<li><p>Write a Python program to implement it, displaying the result in the format <code class="docutils literal notranslate"><span class="pre">1234</span> <span class="pre">has</span> <span class="pre">4</span> <span class="pre">digits.</span></code></p></li>
-<li><p>Test your program with a variety of numbers.</p></li>
-<li><p>Extend your program so that it works for negative numbers.</p></li>
-</ol>
-</div>
-<div class="section" id="question-4-the-collatz-problem">
-<h2>Question 4 (The Collatz Problem)<a class="headerlink" href="#question-4-the-collatz-problem" title="Permalink to this headline">¶</a></h2>
-<p>Given a positive integer <code class="docutils literal notranslate"><span class="pre">n</span></code>, the Collatz Operation is defined as follows:</p>
-<ul class="simple">
-<li><p>If the number is even, divide it by two</p></li>
-<li><p>If the number is odd, triple it and add one</p></li>
-</ul>
-<p>Repeatedly applying the Collatz Operation results in a sequence if integers which eventually reaches the number 1.</p>
-<blockquote>
-<div><p>Write a program which generates the Collatz Sequence for a given positive integer <span class="math notranslate nohighlight">\(n\)</span>.</p>
-</div></blockquote>
-<p>For example, if <code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">5</span></code> then your program should produce the following:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">5</span>
-<span class="mi">16</span>
-<span class="mi">8</span>
-<span class="mi">4</span>
-<span class="mi">2</span>
-<span class="mi">1</span>
+<p>Write a program which use the quadratic formula to print the solution to the quadratic equation <span class="math notranslate nohighlight">\(ax^2 + bx + c = 0\)</span>, given variables <code class="docutils literal notranslate"><span class="pre">a</span></code>, <code class="docutils literal notranslate"><span class="pre">b</span></code>, and <code class="docutils literal notranslate"><span class="pre">c</span></code>. Your program should print:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">solutions</span> <span class="n">are</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">4</span> <span class="ow">and</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
 </pre></div>
 </div>
-<p>Given a positive integer <span class="math notranslate nohighlight">\(n\)</span>, define the Collatz Number <span class="math notranslate nohighlight">\(C(n)\)</span> to be the length of the Collatz Sequence for <span class="math notranslate nohighlight">\(n\)</span>. For example <span class="math notranslate nohighlight">\(C(5) = 6\)</span>.</p>
+<p>or</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">solution</span> <span class="ow">is</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<p>or</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">There</span> <span class="n">are</span> <span class="n">no</span> <span class="n">real</span> <span class="n">solutions</span>
+</pre></div>
+</div>
+<p>(Hint: first calculate the discriminant <span class="math notranslate nohighlight">\(b^2-4ac\)</span>).</p>
+</div>
+<div class="section" id="question-4">
+<h2>Question 4<a class="headerlink" href="#question-4" title="Permalink to this headline">¶</a></h2>
+<p>Given two integers <span class="math notranslate nohighlight">\(n\)</span> and <span class="math notranslate nohighlight">\(m\)</span> it is possible to perform division-with-remainder by repeatedly subtracting <span class="math notranslate nohighlight">\(m\)</span> from <span class="math notranslate nohighlight">\(n\)</span> until the result is less than <span class="math notranslate nohighlight">\(m\)</span>. For example, to calculate 13 divided by 3:</p>
+<p>13 - 3 = 10<br />
+10 - 3 = 7<br />
+7 - 3 = 4<br />
+4 - 3 = 1</p>
+<p>13 divided by 3 equals 4 remainder 1.</p>
+<p>Use the following pseudocode to write a program which performs this calulation.</p>
 <blockquote>
-<div><p>Write a program which determines the smallest number <span class="math notranslate nohighlight">\(n\)</span> whose Collatz Number <span class="math notranslate nohighlight">\(C(n)\)</span> is greater than one million.</p>
+<div><p>Set <code class="docutils literal notranslate"><span class="pre">n</span></code> to 13<br />
+Set <code class="docutils literal notranslate"><span class="pre">m</span></code> to 3<br />
+Set <code class="docutils literal notranslate"><span class="pre">i</span></code> to 0<br />
+Repeat while <code class="docutils literal notranslate"><span class="pre">n</span></code> is greater than <code class="docutils literal notranslate"><span class="pre">m</span></code>:</p>
+<ul class="simple">
+<li><p>Subtract <code class="docutils literal notranslate"><span class="pre">m</span></code> from <code class="docutils literal notranslate"><span class="pre">n</span></code></p></li>
+<li><p>Increase <code class="docutils literal notranslate"><span class="pre">i</span></code> by 1.</p></li>
+</ul>
+<p>Print the result</p>
 </div></blockquote>
+<p>The result should be displayed in words as above (hint: you’ll need to create an extra variable to store the original value of <code class="docutils literal notranslate"><span class="pre">n</span></code>).</p>
 </div>
 </div>
 
@@ -309,6 +314,15 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="../Before_you_begin/getting_started.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Before You Begin</p>
+            </div>
+        </a>
+    </div>
 
 </div>
         
