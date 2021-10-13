@@ -58,11 +58,11 @@
 #  - If the number is even, divide it by two
 #  - If the number is odd, triple it and add one
 #  
-# Repeatedly applying the Collatz Operation results in a sequence if integers which eventually reaches the number 1.
+# Repeatedly applying the Collatz Operation results in a sequence of integers which eventually reaches the number 1.
 # 
 # > Write a program which generates the Collatz Sequence for a given positive integer $n$. 
 # 
-# For example, if `n = 5` then your program should produce the following:
+# For example, if $n = 5$ then your program should produce the following:
 # 
 # ```
 # 5
@@ -73,8 +73,21 @@
 # 1
 # ```
 # 
-# Given a positive integer $n$, define the Collatz Number $C(n)$ to be the length of the Collatz Sequence for $n$. For example $C(5) = 6$.
+# Given a positive integer $n$, define the Collatz Number to be the length of the Collatz Sequence for $n$. For example, the Collatz number of 5 is 6.
 # 
-# > Write a program which determines the smallest number $n$ whose Collatz Number $C(n)$ is greater than one million.
+# > Write a program which calculates and prints the Collatz number of a given number $n$. For example, if $n=5$ your program should print `The Collatz number of 5 is 6`.
+# 
+# > Write a program which finds the smallest number $n$ whose Collatz Number is greater than 200.
+# 
 
-# 
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
