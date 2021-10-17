@@ -7,6 +7,7 @@ chapters:
 - file: Before_you_begin/getting_started.md
 - file: Tutorial_1/practice_1.ipynb
 - file: Tutorial_1/tutorial_1.ipynb
+- file: Tutorial_2/practice_2.ipynb
 # - file: Tutorial_2/tutorial_2.ipynb
 # - file: Tutorial_3/tutorial_3.ipynb
 # - file: Tutorial_4/tutorial_4.ipynb
