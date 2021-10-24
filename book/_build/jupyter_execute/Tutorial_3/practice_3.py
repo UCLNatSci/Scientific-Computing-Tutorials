@@ -48,7 +48,7 @@
 
 # ## Question 4
 # 
-# The following code initialises a list `x` with ten random integers, then prints `x`.
+# The following code initialises a list `x` with ten integers.
 # 
 # Write code which creates four lists, containing:
 # - Every element of `x` at an even index.
@@ -56,8 +56,8 @@
 # - All elements in reverse order.
 # - Only the first and last element.
 
-# In[ ]:
+# In[1]:
 
 
-
+x = [18, 19, 10, 19, 11, 7, 12, 6, 5, 4]
 
