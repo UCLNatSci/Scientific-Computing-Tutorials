@@ -2,53 +2,8 @@
 # coding: utf-8
 
 # # Tutorial 3
-# ## Practice Questions
 
-# ### Question 1
-# 
-# Use a `for` loop to generate the following lists:
-# 1. `[5, 7, 9, 11, 13, 15]`
-# 1. `[1, 10, 100, 1000, 10000, 100000]`
-# 1. `[0, 1, 2, 0, 1, 2, 0, 1, 2]` (hint: use the `%` operator)
-
-# In[ ]:
-
-
-
-
-
-# ### Question 2
-# 
-# Look up the predicted daily maximum and minimum temperatures for the next 10 days according to the BBC weather forecast.
-# 
-# https://www.bbc.co.uk/weather/2643743
-# 
-# Create two lists containing the maximum and minimum temperatures and plot them as two separate lines on a line graph, including axis labels and title. Look up how to add a legend.
-# 
-# 
-# ```{image} temperatures.png
-# :width: 300px
-# ```
-
-# In[ ]:
-
-
-
-
-
-# ### Question 3
-# 
-# The following code initialises a list `x` with ten random integers, then prints `x`.
-# 
-# Write code which creates four lists, containing:
-# - Every element of `x` at an even index.
-# - Every even element.
-# - All elements in reverse order.
-# - Only the first and last element.
-
-# ## Tutorial Questions
-# 
-# ### Question 1
+# ## Question 1
 # 
 # Given a string representing a DNA sequence, we want to print a sequence of nucleotide names:
 # ```

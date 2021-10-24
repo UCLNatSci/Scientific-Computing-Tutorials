@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tutorial 1 &#8212; Scientific Computing Workbook</title>
+    <title>Practice 3 &#8212; Scientific Computing Workbook</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -42,8 +42,6 @@
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -53,8 +51,7 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Practice 2" href="../Tutorial_2/practice_2.html" />
-    <link rel="prev" title="Practice 1" href="practice_1.html" />
+    <link rel="prev" title="Tutorial 2" href="../Tutorial_2/tutorial_2.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -98,12 +95,12 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="practice_1.html">
+  <a class="reference internal" href="../Tutorial_1/practice_1.html">
    Practice 1
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_1/tutorial_1.html">
    Tutorial 1
   </a>
  </li>
@@ -117,8 +114,8 @@
    Tutorial 2
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Tutorial_3/practice_3.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Practice 3
   </a>
  </li>
@@ -163,7 +160,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Tutorial_1/tutorial_1.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/Tutorial_3/practice_3.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -209,8 +206,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#question-4-the-collatz-problem">
-   Question 4 (The Collatz Problem)
+  <a class="reference internal nav-link" href="#question-4">
+   Question 4
   </a>
  </li>
 </ul>
@@ -224,67 +221,39 @@
         
               <div>
                 
-  <div class="section" id="tutorial-1">
-<h1>Tutorial 1<a class="headerlink" href="#tutorial-1" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="practice-3">
+<h1>Practice 3<a class="headerlink" href="#practice-3" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="question-1">
 <h2>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline">¶</a></h2>
-<p>A time <code class="docutils literal notranslate"><span class="pre">t</span></code> in seconds can be converted to days, hours, minutes and seconds using integer division:</p>
-<ol class="simple">
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 60; set <code class="docutils literal notranslate"><span class="pre">t</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">s</span></code>.</p></li>
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 60; set <code class="docutils literal notranslate"><span class="pre">t</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">m</span></code>.</p></li>
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 24; set <code class="docutils literal notranslate"><span class="pre">d</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">h</span></code>.</p></li>
-</ol>
-<p>Calculate the number of days, hours, minutes and seconds in one million seconds. Display the result as follows:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1000000</span> <span class="n">seconds</span> <span class="ow">is</span> <span class="n">xx</span> <span class="n">days</span> <span class="n">H</span><span class="p">:</span><span class="n">M</span><span class="p">:</span><span class="n">S</span>
-</pre></div>
-</div>
+<p>Adapt the first example in the notes so that every 5 timesteps the population decreases by 20.</p>
+<p>What value should 20 be changed to so that the popultation is roughly constant over the long term (don’t calculate this; just get a rough figure by experimenting and looking the resulting graph).</p>
 </div>
 <div class="section" id="question-2">
 <h2>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline">¶</a></h2>
-<p>Iodine-131 is a radioisotope with a half-life <span class="math notranslate nohighlight">\(t_\mathrm{half} = 8.02\)</span> days.</p>
+<p>Use a <code class="docutils literal notranslate"><span class="pre">for</span></code> loop to generate the following lists:</p>
 <ol class="simple">
-<li><p>Use the equation <span class="math notranslate nohighlight">\(r = \left(\frac{1}{2}\right) ^ {1/t_\mathrm{half}}\)</span> to calculate the daily decay rate (i.e. the proportion of a sample of Iodine 131 that decays in one day).</p></li>
-<li><p>A sample of radioactive material containing Iodine-131 has an activity of <span class="math notranslate nohighlight">\(1.67 \times 10^{12}\)</span> Becquerels. Write a program which calculates the number of days it takes for the sample to reach an activity of <span class="math notranslate nohighlight">\(10000\)</span> Becquerels.</p></li>
-<li><p>Print the activity of the sample once every 7 days.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5,</span> <span class="pre">7,</span> <span class="pre">9,</span> <span class="pre">11,</span> <span class="pre">13,</span> <span class="pre">15]</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[1,</span> <span class="pre">10,</span> <span class="pre">100,</span> <span class="pre">1000,</span> <span class="pre">10000,</span> <span class="pre">100000]</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">0,</span> <span class="pre">1,</span> <span class="pre">2]</span></code> (hint: use the <code class="docutils literal notranslate"><span class="pre">%</span></code> operator)</p></li>
 </ol>
 </div>
 <div class="section" id="question-3">
 <h2>Question 3<a class="headerlink" href="#question-3" title="Permalink to this headline">¶</a></h2>
-<p>We can calculate how many digits there are in a number by repeatedly dividing by 10 until the number is less than one.</p>
-<ol class="simple">
-<li><p>Write peudo-code for this calculation.</p></li>
-<li><p>Write a Python program to implement it, displaying the result in the format <code class="docutils literal notranslate"><span class="pre">1234</span> <span class="pre">has</span> <span class="pre">4</span> <span class="pre">digits.</span></code></p></li>
-<li><p>Test your program with a variety of numbers.</p></li>
-<li><p>Extend your program so that it works for negative numbers.</p></li>
-</ol>
+<p>Look up the predicted daily maximum and minimum temperatures for the next 10 days according to the BBC weather forecast.</p>
+<p><a class="reference external" href="https://www.bbc.co.uk/weather/2643743">https://www.bbc.co.uk/weather/2643743</a></p>
+<p>Create two lists containing the maximum and minimum temperatures and plot them as two separate lines on a line graph, including axis labels and title. Look up how to add a legend in the <a class="reference external" href="https://matplotlib.org/stable/users/index.html">Matplotlib documentation</a>.</p>
+<a class="reference internal image-reference" href="../_images/temperatures.png"><img alt="../_images/temperatures.png" src="../_images/temperatures.png" style="width: 300px;" /></a>
 </div>
-<div class="section" id="question-4-the-collatz-problem">
-<h2>Question 4 (The Collatz Problem)<a class="headerlink" href="#question-4-the-collatz-problem" title="Permalink to this headline">¶</a></h2>
-<p>Given a positive integer <code class="docutils literal notranslate"><span class="pre">n</span></code>, the Collatz Operation is defined as follows:</p>
+<div class="section" id="question-4">
+<h2>Question 4<a class="headerlink" href="#question-4" title="Permalink to this headline">¶</a></h2>
+<p>The following code initialises a list <code class="docutils literal notranslate"><span class="pre">x</span></code> with ten random integers, then prints <code class="docutils literal notranslate"><span class="pre">x</span></code>.</p>
+<p>Write code which creates four lists, containing:</p>
 <ul class="simple">
-<li><p>If the number is even, divide it by two</p></li>
-<li><p>If the number is odd, triple it and add one</p></li>
+<li><p>Every element of <code class="docutils literal notranslate"><span class="pre">x</span></code> at an even index.</p></li>
+<li><p>Every even element.</p></li>
+<li><p>All elements in reverse order.</p></li>
+<li><p>Only the first and last element.</p></li>
 </ul>
-<p>Repeatedly applying the Collatz Operation results in a sequence of integers which eventually reaches the number 1.</p>
-<blockquote>
-<div><p>Write a program which generates the Collatz Sequence for a given positive integer <span class="math notranslate nohighlight">\(n\)</span>.</p>
-</div></blockquote>
-<p>For example, if <span class="math notranslate nohighlight">\(n = 5\)</span> then your program should produce the following:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">5</span>
-<span class="mi">16</span>
-<span class="mi">8</span>
-<span class="mi">4</span>
-<span class="mi">2</span>
-<span class="mi">1</span>
-</pre></div>
-</div>
-<p>Given a positive integer <span class="math notranslate nohighlight">\(n\)</span>, define the Collatz Number to be the length of the Collatz Sequence for <span class="math notranslate nohighlight">\(n\)</span>. For example, the Collatz number of 5 is 6.</p>
-<blockquote>
-<div><p>Write a program which calculates and prints the Collatz number of a given number <span class="math notranslate nohighlight">\(n\)</span>. For example, if <span class="math notranslate nohighlight">\(n=5\)</span> your program should print <code class="docutils literal notranslate"><span class="pre">The</span> <span class="pre">Collatz</span> <span class="pre">number</span> <span class="pre">of</span> <span class="pre">5</span> <span class="pre">is</span> <span class="pre">6</span></code>.</p>
-</div></blockquote>
-<blockquote>
-<div><p>Write a program which finds the smallest number <span class="math notranslate nohighlight">\(n\)</span> whose Collatz Number is greater than 200.</p>
-</div></blockquote>
 </div>
 </div>
 
@@ -301,7 +270,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./Tutorial_1"
+            path: "./Tutorial_3"
         },
         predefinedOutput: true
     }
@@ -318,23 +287,14 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="practice_1.html" title="previous page">
+        <a class="left-prev" href="../Tutorial_2/tutorial_2.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Practice 1</p>
+                <p class="prevnext-title">Tutorial 2</p>
             </div>
         </a>
     </div>
-     <div id="next">
-        <a class="right-next" href="../Tutorial_2/practice_2.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Practice 2</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
 
 </div>
         

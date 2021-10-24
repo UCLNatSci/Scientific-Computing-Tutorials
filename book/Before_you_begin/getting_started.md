@@ -24,8 +24,8 @@ Follow the the instruction below to create a Cocalc account and run a notebook f
 > Follow these steps to log in to Cocalc and set up collaboration:
 
 1. Navigate to the Cocalc web site www.cocalc.com.
-1. Click 'Sign In'
-1. Create an account using your UCL email address `firstname.surname.20@ucl.ac.uk`.
+1. Click 'Sign Up'.
+1. Agree to the terms of service then create an account using your UCL email address `firstname.surname.20@ucl.ac.uk`.
 1. You should see a Project titled something like '[your name] - NSCI0007_21_22'. If you don't, this might be because you didn't use the correct email address in step 3.
 1. Click 'Account' in the top-right hand corner.
 1. Enter your first and last names. You can also change your profile picture and other settings if you wish.
