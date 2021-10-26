@@ -53,6 +53,7 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Practice 3" href="practice_3.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -89,7 +90,7 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../Before_you_begin/getting_started.html">
    Before You Begin
@@ -118,6 +119,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="practice_3.html">
    Practice 3
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Tutorial 3
   </a>
  </li>
 </ul>
@@ -195,18 +201,21 @@
   <a class="reference internal nav-link" href="#question-1">
    Question 1
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#question-2">
-     Question 2
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#question-3">
-     Question 3
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#question-2">
+   Question 2
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#question-3">
+   Question 3
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#question-4-optional-challenge">
+   Question 4 (Optional Challenge)
+  </a>
  </li>
 </ul>
 
@@ -223,6 +232,54 @@
 <h1>Tutorial 3<a class="headerlink" href="#tutorial-3" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="question-1">
 <h2>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline">¶</a></h2>
+<p>As a train accelerates out of the station, its position is measured as follows:</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>time (s):</p></th>
+<th class="head"><p>0</p></th>
+<th class="head"><p>1</p></th>
+<th class="head"><p>2</p></th>
+<th class="head"><p>3</p></th>
+<th class="head"><p>4</p></th>
+<th class="head"><p>5</p></th>
+<th class="head"><p>6</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>position (m):</p></td>
+<td><p>0</p></td>
+<td><p>0.15</p></td>
+<td><p>0.61</p></td>
+<td><p>1.35</p></td>
+<td><p>2.40</p></td>
+<td><p>3.75</p></td>
+<td><p>5.41</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="simple">
+<li><p>Create two lists <code class="docutils literal notranslate"><span class="pre">time</span></code> and <code class="docutils literal notranslate"><span class="pre">speed</span></code> to store the data then plot a line graph showing the trains speed against time. Add a title <code class="docutils literal notranslate"><span class="pre">Train</span> <span class="pre">Speed</span></code> and axis labels <code class="docutils literal notranslate"><span class="pre">Time</span> <span class="pre">(s)</span></code> and <code class="docutils literal notranslate"><span class="pre">Speed</span> <span class="pre">(m/s)</span></code>.</p></li>
+<li><p>Using the forumla <span class="math notranslate nohighlight">\(s =\frac{1}{2}at^2\)</span>, create a list <code class="docutils literal notranslate"><span class="pre">speed_est</span></code> containing the position of the train for each time point. Assume that <span class="math notranslate nohighlight">\(a=0.2~\mathrm{m/s^2}\)</span>.</p></li>
+<li><p>Plot the <code class="docutils literal notranslate"><span class="pre">speed_est</span></code> on the graph. By varying <span class="math notranslate nohighlight">\(a\)</span>, estimate the acceleration of the train.</p></li>
+</ol>
+</div>
+<div class="section" id="question-2">
+<h2>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline">¶</a></h2>
+<p>Given a list of numbers, a moving average is a list containing the mean of <code class="docutils literal notranslate"><span class="pre">n</span></code> consecutive elements. For example, if <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">[1,</span> <span class="pre">2,</span> <span class="pre">3,</span> <span class="pre">4]</span></code> and <code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">2</span></code> then the moving average of <code class="docutils literal notranslate"><span class="pre">x</span></code> is <code class="docutils literal notranslate"><span class="pre">[1.5,</span> <span class="pre">2.5,</span> <span class="pre">3.5]</span></code>.</p>
+<p>The variable <code class="docutils literal notranslate"><span class="pre">pressure_data</span></code> is a list of atmospheric pressure readings in millibars.</p>
+<p>Create a second variable <code class="docutils literal notranslate"><span class="pre">pressure_smoothed</span></code> which contains the the moving average of <code class="docutils literal notranslate"><span class="pre">pressure_data</span></code> with <code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">2</span></code> and plot the two lists on a graph. (The two lists will not be the same length so you will have to determine what to do about that!)</p>
+<p><strong>Challenge:</strong> Adapt your code for an arbitrary value of <code class="docutils literal notranslate"><span class="pre">n</span></code>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pressure_data</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1018.3</span><span class="p">,</span> <span class="mf">1018.3</span><span class="p">,</span> <span class="mf">1015.7</span><span class="p">,</span> <span class="mf">1014.3</span><span class="p">,</span> <span class="mf">1011.8</span><span class="p">,</span> <span class="mf">1011.4</span><span class="p">,</span> <span class="mf">1015.5</span><span class="p">,</span> <span class="mf">1016.0</span><span class="p">,</span> <span class="mf">1016.9</span><span class="p">,</span> <span class="mf">1016.8</span><span class="p">,</span> <span class="mf">1016.4</span><span class="p">,</span> <span class="mf">1017.5</span><span class="p">,</span> <span class="mf">1018.8</span><span class="p">,</span> <span class="mf">1018.1</span><span class="p">,</span> <span class="mf">1017.1</span><span class="p">,</span> <span class="mf">1018.4</span><span class="p">,</span> <span class="mf">1022.0</span><span class="p">,</span> <span class="mf">1022.8</span><span class="p">,</span> <span class="mf">1021.8</span><span class="p">,</span> <span class="mf">1020.5</span><span class="p">,</span> <span class="mf">1021.0</span><span class="p">,</span> <span class="mf">1019.8</span><span class="p">,</span> <span class="mf">1018.9</span><span class="p">,</span> <span class="mf">1018.4</span><span class="p">,</span> <span class="mf">1017.8</span><span class="p">,</span> <span class="mf">1018.1</span><span class="p">,</span> <span class="mf">1019.6</span><span class="p">,</span> <span class="mf">1017.4</span><span class="p">,</span> <span class="mf">1015.8</span><span class="p">,</span> <span class="mf">1015.5</span><span class="p">,</span> <span class="mf">1017.5</span><span class="p">,</span> <span class="mf">1018.9</span><span class="p">,</span> <span class="mf">1017.7</span><span class="p">,</span> <span class="mf">1014.4</span><span class="p">,</span> <span class="mf">1014.2</span><span class="p">,</span> <span class="mf">1016.0</span><span class="p">,</span> <span class="mf">1016.1</span><span class="p">,</span> <span class="mf">1015.6</span><span class="p">,</span> <span class="mf">1016.4</span><span class="p">,</span> <span class="mf">1015.7</span><span class="p">,</span> <span class="mf">1016.6</span><span class="p">,</span> <span class="mf">1019.6</span><span class="p">,</span> <span class="mf">1021.6</span><span class="p">,</span> <span class="mf">1021.4</span><span class="p">,</span> <span class="mf">1020.6</span><span class="p">,</span> <span class="mf">1017.6</span><span class="p">,</span> <span class="mf">1016.5</span><span class="p">,</span> <span class="mf">1016.2</span><span class="p">,</span> <span class="mf">1013.0</span><span class="p">,</span> <span class="mf">1005.4</span><span class="p">,</span> <span class="mf">1007.4</span><span class="p">,</span> <span class="mf">1012.2</span><span class="p">,</span> <span class="mf">1015.2</span><span class="p">,</span> <span class="mf">1016.1</span><span class="p">,</span> <span class="mf">1014.3</span><span class="p">,</span> <span class="mf">1012.4</span><span class="p">,</span> <span class="mf">1014.2</span><span class="p">,</span> <span class="mf">1013.1</span><span class="p">,</span> <span class="mf">1012.9</span><span class="p">,</span> <span class="mf">1012.1</span><span class="p">,</span> <span class="mf">1010.6</span><span class="p">,</span> <span class="mf">1010.0</span><span class="p">,</span> <span class="mf">1010.5</span><span class="p">,</span> <span class="mf">1010.3</span><span class="p">,</span> <span class="mf">1007.4</span><span class="p">,</span> <span class="mf">1008.9</span><span class="p">,</span> <span class="mf">1007.4</span><span class="p">,</span> <span class="mf">1006.9</span><span class="p">,</span> <span class="mf">1009.8</span><span class="p">,</span> <span class="mf">1014.8</span><span class="p">,</span> <span class="mf">1014.9</span><span class="p">,</span> <span class="mf">1016.6</span><span class="p">,</span> <span class="mf">1014.1</span><span class="p">,</span> <span class="mf">1011.1</span><span class="p">,</span> <span class="mf">1010.7</span><span class="p">,</span> <span class="mf">1009.8</span><span class="p">,</span> <span class="mf">1011.9</span><span class="p">,</span> <span class="mf">1012.6</span><span class="p">,</span> <span class="mf">1011.8</span><span class="p">,</span> <span class="mf">1009.8</span><span class="p">,</span> <span class="mf">1008.9</span><span class="p">,</span> <span class="mf">1010.6</span><span class="p">,</span> <span class="mf">1009.9</span><span class="p">,</span> <span class="mf">1010.2</span><span class="p">,</span> <span class="mf">1009.5</span><span class="p">,</span> <span class="mf">1009.0</span><span class="p">,</span> <span class="mf">1007.1</span><span class="p">,</span> <span class="mf">1007.1</span><span class="p">,</span> <span class="mf">1007.5</span><span class="p">,</span> <span class="mf">1005.0</span><span class="p">,</span> <span class="mf">1004.2</span><span class="p">,</span> <span class="mf">1004.2</span><span class="p">,</span> <span class="mf">1007.2</span><span class="p">,</span> <span class="mf">1005.0</span><span class="p">,</span> <span class="mf">1002.9</span><span class="p">,</span> <span class="mf">1007.4</span><span class="p">,</span> <span class="mf">1010.4</span><span class="p">,</span> <span class="mf">1010.6</span><span class="p">,</span> <span class="mf">1008.6</span><span class="p">,</span> <span class="mf">1006.2</span><span class="p">,</span> <span class="mf">1005.9</span><span class="p">,</span> <span class="mf">1006.8</span><span class="p">,</span> <span class="mf">1004.6</span><span class="p">,</span> <span class="mf">1002.4</span><span class="p">,</span> <span class="mf">1003.2</span><span class="p">,</span> <span class="mf">1004.4</span><span class="p">,</span> <span class="mf">1003.1</span><span class="p">,</span> <span class="mf">1000.9</span><span class="p">,</span> <span class="mf">998.6</span><span class="p">,</span> <span class="mf">999.9</span><span class="p">,</span> <span class="mf">1001.6</span><span class="p">,</span> <span class="mf">1002.1</span><span class="p">,</span> <span class="mf">1004.1</span><span class="p">]</span>
+    
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="question-3">
+<h2>Question 3<a class="headerlink" href="#question-3" title="Permalink to this headline">¶</a></h2>
 <p>Given a string representing a DNA sequence, we want to print a sequence of nucleotide names:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dna_seq</span> <span class="o">=</span> <span class="s2">&quot;gttccccaagctcttacataaatgtcgtagggttccagctacgtgttgttgggccaccca&quot;</span>
 </pre></div>
@@ -245,30 +302,17 @@
 </li>
 </ul>
 <p><strong>HINT</strong>: First try just for a single letter. E.g. given <code class="docutils literal notranslate"><span class="pre">nuc</span> <span class="pre">=</span> <span class="pre">&quot;A&quot;</span></code>, print <code class="docutils literal notranslate"><span class="pre">Adenine</span></code>.</p>
-<div class="section" id="question-2">
-<h3>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline">¶</a></h3>
-<blockquote>
-<div><p>TODO: rewrite this</p>
-</div></blockquote>
+</div>
+<div class="section" id="question-4-optional-challenge">
+<h2>Question 4 (Optional Challenge)<a class="headerlink" href="#question-4-optional-challenge" title="Permalink to this headline">¶</a></h2>
 <p>A cannon located at position <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">0</span></code> fires a cannonball at an angle <code class="docutils literal notranslate"><span class="pre">theta</span></code> from the horizontal (measured in radians) and speed <code class="docutils literal notranslate"><span class="pre">speed</span></code> m/s. Write a program which plots a graph of the cannonball’s trajectory.</p>
-<a class="reference internal image-reference" href="../_images/cannon.jpg"><img alt="../_images/cannon.jpg" src="../_images/cannon.jpg" style="width: 200px;" /></a>
+<a class="reference internal image-reference" href="../_images/cannon.jpg"><img alt="cannon" src="../_images/cannon.jpg" style="width: 200px;" /></a>
 <p>Set the initial positions <code class="docutils literal notranslate"><span class="pre">x</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span></code> to zero and velocities <code class="docutils literal notranslate"><span class="pre">vx</span></code> and <code class="docutils literal notranslate"><span class="pre">vy</span></code> to <code class="docutils literal notranslate"><span class="pre">np.cos(theta)</span></code> and <code class="docutils literal notranslate"><span class="pre">np.sin(theta)</span></code>. Each time step, update the positions using <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">x</span> <span class="pre">+</span> <span class="pre">vx</span> <span class="pre">*</span> <span class="pre">DELTA_T</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span> <span class="pre">=</span> <span class="pre">y</span> <span class="pre">+</span> <span class="pre">vy</span> <span class="pre">*</span> <span class="pre">DELTA_T</span></code>. Update the velocity <code class="docutils literal notranslate"><span class="pre">vy</span> <span class="pre">=</span> <span class="pre">vy</span> <span class="pre">-</span> <span class="pre">g</span> <span class="pre">*</span> <span class="pre">DELTA_T</span></code>. The x velocity remains constant.
 Create lists <code class="docutils literal notranslate"><span class="pre">x_list</span></code> and <code class="docutils literal notranslate"><span class="pre">y_list</span></code> to store the x and y positions, appending the new positions at each timestep.</p>
 <p>Repeat until the <code class="docutils literal notranslate"><span class="pre">y</span></code> position becomes negative (what kind of loop should you use for this?). Finally, use <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> to plot the two lists.</p>
 <p>Extend your program so that it prints <code class="docutils literal notranslate"><span class="pre">hit</span></code> or <code class="docutils literal notranslate"><span class="pre">miss</span></code> depending if the cannonball lands less than 20m from a target placed at a distance <code class="docutils literal notranslate"><span class="pre">dis</span></code> from the cannon.</p>
-<a class="reference internal image-reference" href="../_images/cannon_output.png"><img alt="../_images/cannon_output.png" src="../_images/cannon_output.png" style="width: 200px;" /></a>
+<a class="reference internal image-reference" href="../_images/cannon_output.png"><img alt="cannon output" src="../_images/cannon_output.png" style="width: 200px;" /></a>
 <p><code class="docutils literal notranslate"><span class="pre">hit</span></code></p>
-</div>
-<div class="section" id="question-3">
-<h3>Question 3<a class="headerlink" href="#question-3" title="Permalink to this headline">¶</a></h3>
-<p>Recall the Collatz Operation from the first week:</p>
-<ul class="simple">
-<li><p>If <code class="docutils literal notranslate"><span class="pre">n</span></code> is even, divide it by two</p></li>
-<li><p>If <code class="docutils literal notranslate"><span class="pre">n</span></code> is odd, triple it and add one</p></li>
-</ul>
-<p>If we repeatedly apply the operation, we get a sequence of integers which terminates at the number 1. We define the ‘Collatz number’ of an integer <span class="math notranslate nohighlight">\(n\)</span> to be the number of iterations in the sequence.</p>
-<p>Write a program which generates a line graph with integers 0 … 100 on the x-axis, and Collatz number on the y axis.</p>
-</div>
 </div>
 </div>
 
@@ -301,6 +345,15 @@ Create lists <code class="docutils literal notranslate"><span class="pre">x_list
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="practice_3.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Practice 3</p>
+            </div>
+        </a>
+    </div>
 
 </div>
         
