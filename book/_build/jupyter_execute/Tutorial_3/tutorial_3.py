@@ -5,6 +5,8 @@
 
 # ## Question 1
 # 
+# *Corrected 29/10/21*
+# 
 # As a train accelerates out of the station, its position is measured as follows:
 # 
 # | time (s):    | 0  | 1 | 2 | 3 | 4  | 5  | 6 |
