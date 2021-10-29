@@ -11,9 +11,9 @@
 # |--------------|----|---|---|---|---|---|---|
 # | position (m): |  0 |  0.15 | 0.61  | 1.35  | 2.40  | 3.75  | 5.41  |
 # 
-# 1. Create two lists `time` and `speed` to store the data then plot a line graph showing the trains speed against time. Add a title `Train Speed` and axis labels `Time (s)` and `Speed (m/s)`.
-# 1. Using the forumla $s =\frac{1}{2}at^2$, create a list `speed_est` containing the position of the train for each time point. Assume that $a=0.2~\mathrm{m/s^2}$.
-# 1. Plot the `speed_est` on the graph. By varying $a$, estimate the acceleration of the train.
+# 1. Create two lists `time` and `position` to store the data then plot a line graph showing the train's position against time. Add a title `Train Position` and axis labels `Time (s)` and `Position (m)`.
+# 1. Using the forumla $s =\frac{1}{2}at^2$, create a list `pos_est` containing the position of the train for each time point. Assume that $a=0.2~\mathrm{m/s^2}$.
+# 1. Plot `pos_est` on the graph. By varying $a$, estimate the acceleration of the train.
 # 
 
 # In[ ]:
