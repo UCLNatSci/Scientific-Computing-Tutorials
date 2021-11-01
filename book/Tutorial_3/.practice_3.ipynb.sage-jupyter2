@@ -8,4 +8,4 @@
 {"cell_type":"markdown","id":"4f886f","input":"# Practice 3\n## Question 1\n\nAdapt the first example in the notes so that every 5 timesteps the population decreases by 20.\n\nWhat value should 20 be changed to so that the popultation is roughly constant over the long term (don't calculate this; just get a rough figure by experimenting and looking the resulting graph).","pos":0,"type":"cell"}
 {"cell_type":"markdown","id":"a45f3b","input":"## Question 4\n\nThe following code initialises a list `x` with ten integers.\n\nWrite code which creates four lists, containing:\n- Every element of `x` at an even index.\n- Every even element.\n- All elements in reverse order.\n- Only the first and last element.","pos":6,"type":"cell"}
 {"id":0,"time":1635496240474,"type":"user"}
-{"last_load":1635494212685,"type":"file"}
+{"last_load":1635541252594,"type":"file"}
