@@ -53,6 +53,7 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Practice 4" href="practice_4.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -89,7 +90,7 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../Before_you_begin/getting_started.html">
    Before You Begin
@@ -118,6 +119,21 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../Tutorial_3/practice_3.html">
    Practice 3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_3/tutorial_3.html">
+   Tutorial 3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="practice_4.html">
+   Practice 4
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Tutorial 4
   </a>
  </li>
 </ul>
@@ -192,39 +208,7 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#practice-questions">
-   Practice Questions
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#question-1">
-     Question 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#question-2">
-     Question 2
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#question-3">
-     Question 3
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#question-4">
-     Question 4
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#tutorial-questions">
-   Tutorial Questions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id1">
+  <a class="reference internal nav-link" href="#question-1">
    Question 1
   </a>
   <ul class="nav section-nav flex-column">
@@ -248,6 +232,13 @@
      Step 4
     </a>
    </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#question-2-optional">
+   Question 2 (Optional)
+  </a>
+  <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#part-1">
      Part 1
@@ -273,86 +264,14 @@
                 
   <div class="section" id="tutorial-4">
 <h1>Tutorial 4<a class="headerlink" href="#tutorial-4" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="practice-questions">
-<h2>Practice Questions<a class="headerlink" href="#practice-questions" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="question-1">
-<h3>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline">¶</a></h3>
-<p>Write a Python script which loops over the characters in a string and prints the three character substring starting at each character:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span>
-<span class="o">...</span>
-</pre></div>
+<h2>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before attempting this question, you should work through the introduction of the lecture notes and practice questions 1-3.</p>
 </div>
-<p>Output:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ABC</span>
-<span class="n">BCD</span>
-<span class="n">CDE</span>
-<span class="o">...</span>
-<span class="n">XYZ</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="question-2">
-<h3>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline">¶</a></h3>
-<p>Write a program which loops over the characters of a string <strong>three at a time</strong> and prints each three character substring. If the number of characters is not divisible by three, ignore the trailing characters.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span>
-<span class="o">...</span>
-</pre></div>
-</div>
-<p>Output:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ABC</span>
-<span class="n">DEF</span>
-<span class="n">GHI</span>
-<span class="o">...</span>
-<span class="n">VWX</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="question-3">
-<h3>Question 3<a class="headerlink" href="#question-3" title="Permalink to this headline">¶</a></h3>
-<p>Write a program which loops over the characters of <code class="docutils literal notranslate"><span class="pre">s</span></code> three at a time, in the same manner as question 2. Use <code class="docutils literal notranslate"><span class="pre">string_list.index</span></code> to find the position of each 3-character string in <code class="docutils literal notranslate"><span class="pre">string_list</span></code>, then print the character in the equivalent position in <code class="docutils literal notranslate"><span class="pre">character_list</span></code>.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span>
-<span class="n">string_list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;MNO&quot;</span><span class="p">,</span> <span class="s2">&quot;DEF&quot;</span><span class="p">,</span> <span class="s2">&quot;VWX&quot;</span><span class="p">,</span> <span class="s2">&quot;JKL&quot;</span><span class="p">,</span> <span class="s2">&quot;PQR&quot;</span><span class="p">,</span> <span class="s2">&quot;ABC&quot;</span><span class="p">,</span> <span class="s2">&quot;STU&quot;</span><span class="p">,</span> <span class="s2">&quot;GHI&quot;</span><span class="p">]</span>
-<span class="n">character_list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;N&quot;</span><span class="p">,</span> <span class="s2">&quot;C&quot;</span><span class="p">,</span> <span class="s2">&quot;!&quot;</span><span class="p">,</span> <span class="s2">&quot;E&quot;</span><span class="p">,</span> <span class="s2">&quot;C&quot;</span><span class="p">,</span> <span class="s2">&quot;S&quot;</span><span class="p">,</span> <span class="s2">&quot;E&quot;</span><span class="p">,</span> <span class="s2">&quot;I&quot;</span><span class="p">]</span>
-<span class="o">...</span>
-</pre></div>
-</div>
-<p>output:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>S
-C
-I
-E
-N
-C
-E
-!
-</pre></div>
-</div>
-</div>
-<div class="section" id="question-4">
-<h3>Question 4<a class="headerlink" href="#question-4" title="Permalink to this headline">¶</a></h3>
-<p>What image does the data in the string <code class="docutils literal notranslate"><span class="pre">shape_data</span></code> represent?
-The  string contains a sequence of x and y co-ordinates where each x, y pair is separated by a semi-colon. Extract the co-ordinates into two separate lists <code class="docutils literal notranslate"><span class="pre">x_coords</span></code> and <code class="docutils literal notranslate"><span class="pre">y-coords</span></code> then plot them on a scatter plot.</p>
-<ul class="simple">
-<li><p>use <code class="docutils literal notranslate"><span class="pre">string.split</span></code> to generate a list of co-ordinate pairs</p></li>
-<li><p>loop over the list and split each pair into x and y co-ordinates</p></li>
-<li><p>convert each to a number and add to lists <code class="docutils literal notranslate"><span class="pre">x_coords</span></code> and <code class="docutils literal notranslate"><span class="pre">y_coords</span></code></p></li>
-<li><p>plot using <code class="docutils literal notranslate"><span class="pre">plt.scatter(x_coords,</span> <span class="pre">y_coords)</span></code></p></li>
-</ul>
-<p>Adapt your code so that it plots the image the correct way up in a figure of  suitable size.</p>
-</div>
-</div>
-<div class="section" id="tutorial-questions">
-<h2>Tutorial Questions<a class="headerlink" href="#tutorial-questions" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="id1">
-<h2>Question 1<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>In biology, an RNA sequence consists of a chain of the nucleotides Adenine, Uracil, Cytosine and Guanine in a specific order. We can represent an RNA sequence by a string consisting of the four letters <code class="docutils literal notranslate"><span class="pre">A</span></code>, <code class="docutils literal notranslate"><span class="pre">U</span></code>, <code class="docutils literal notranslate"><span class="pre">C</span></code> and <code class="docutils literal notranslate"><span class="pre">G</span></code> [1].</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rna_seq</span> <span class="o">=</span> <span class="s2">&quot;GCAUAUGUUCAUAUGAAUA&quot;</span>
-</pre></div>
-</div>
-<p>each three character substring identifies a ‘codon’ which either identifies a specific amino acid within a protein, or a ‘start’ or ‘stop’ instruction.</p>
-<p>start codon: AUG<br />
-stop codons: UAA, UAG, UGA</p>
+<div class="sidebar">
+<p class="sidebar-title">Amino Acid Translation Table</p>
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Amino Acid</p></th>
@@ -393,7 +312,7 @@ stop codons: UAA, UAG, UGA</p>
 <td><p>C</p></td>
 <td><p>UGU, UGC</p></td>
 </tr>
-<tr class="row-even"><td><p>Methionine</p></td>
+<tr class="row-even"><td><p>Methionine (start)</p></td>
 <td><p>M</p></td>
 <td><p>AUG</p></td>
 </tr>
@@ -403,7 +322,7 @@ stop codons: UAA, UAG, UGA</p>
 </tr>
 <tr class="row-even"><td><p>Arginine</p></td>
 <td><p>R</p></td>
-<td><p>CGA, CGU, CGG, CGC</p></td>
+<td><p>AGA, AGG, CGA, CGU, CGG, CGC</p></td>
 </tr>
 <tr class="row-odd"><td><p>Histidine</p></td>
 <td><p>H</p></td>
@@ -441,83 +360,99 @@ stop codons: UAA, UAG, UGA</p>
 <td><p>W</p></td>
 <td><p>UUG</p></td>
 </tr>
+<tr class="row-even"><td><p>(stop)</p></td>
+<td><p></p></td>
+<td><p>UAA, UAG, UGA</p></td>
+</tr>
 </tbody>
 </table>
-<p>Given an RNA sequence, we would like to identify all the amino acid-encoding codons (in <strong>bold</strong>) lying between with the first ‘start’ codon and the first ‘stop’ codon (in <span style="color:red">red</span>).</p>
-<p>GCAU<span style="color:red">AUG</span><strong>UUCAUA</strong><span style="color:red">UGA</span>AUA</p>
-<p>amino acid-encoding codons:<br />
-UUC, AUA</p>
-<p>Having identified the codons, we can determine the sequence of amino acids by looking them up in the table above.</p>
-<p>amino acid sequence:</p>
-<p>FI</p>
-<p>By following the steps below, write a program which translates an RNA sequence into a sequence of amino-acids.</p>
-<p><strong>Hint: Do Practice question 1 first.</strong></p>
-<div class="section" id="step-1">
-<h3>Step 1<a class="headerlink" href="#step-1" title="Permalink to this headline">¶</a></h3>
-<p>Write a program that loops over the characters in the string and checks whether each three character substring is equal to the ‘start’ codon, <code class="docutils literal notranslate"><span class="pre">AUG</span></code>. Once it finds the start codon, it should store the position in the variable <code class="docutils literal notranslate"><span class="pre">j</span></code>, then use the <code class="docutils literal notranslate"><span class="pre">break</span></code> keyword to abort the loop.</p>
-<p>For example,</p>
+</div>
+<p>In biology, an RNA sequence consists of a chain of the nucleotides Adenine, Uracil, Cytosine and Guanine in a specific order. We can represent an RNA sequence by a string consisting of the four letters <code class="docutils literal notranslate"><span class="pre">A</span></code>, <code class="docutils literal notranslate"><span class="pre">U</span></code>, <code class="docutils literal notranslate"><span class="pre">C</span></code> and <code class="docutils literal notranslate"><span class="pre">G</span></code>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rna_seq</span> <span class="o">=</span> <span class="s2">&quot;GCAUAUGUUCAUAUGAAUA&quot;</span>
-
-<span class="c1"># Your code</span>
-<span class="o">...</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Output:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">4</span>
+<p>each three character substring identifies a ‘codon’ which either identifies a specific amino acid within a protein, or a ‘start’ or ‘stop’ instruction.</p>
+<p>Given an RNA sequence, the amino acid-encoding codons (in <strong>bold</strong>) lie between with the first ‘start’ codon and the first ‘stop’ codon (in <span style="color:red">red</span>).</p>
+<p>GCAU<span style="color:red"><strong>AUG</strong></span><strong>UUCAUA</strong><span style="color:red">UGA</span>AUA</p>
+<p>When translating the RNA to a protein, the following steps are followed:</p>
+<ol class="simple">
+<li><p>Read along the sequence until the start codon <code class="docutils literal notranslate"><span class="pre">AUG</span></code> is found.</p></li>
+<li><p>Read along the sequence three characters at a time. Look up each three character codon in the translation table to determine the corresponding amino acid.</p></li>
+<li><p>Stop when the first stop codon (<code class="docutils literal notranslate"><span class="pre">UUA</span></code>, <code class="docutils literal notranslate"><span class="pre">UAG</span></code> or <code class="docutils literal notranslate"><span class="pre">UGA</span></code>) is found.</p></li>
+</ol>
+<p>The above sequence therefore comprises the following three codons:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>AUG
+UUC
+AUA
+</pre></div>
+</div>
+<p>and translates to the amino acid sequence:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>MFI
+</pre></div>
+</div>
+<p>Your goal is to write a program which translates a string representing RNA sequence into a string representing the sequence of amino acids after translation.</p>
+<p>By following the steps below, write a program which translates an RNA sequence into a sequence of amino-acids.</p>
+<div class="section" id="step-1">
+<h3>Step 1<a class="headerlink" href="#step-1" title="Permalink to this headline">¶</a></h3>
+<p>Write a function <code class="docutils literal notranslate"><span class="pre">start_index(sequence)</span></code> that returns the index position of the first occurrence of the start codon <code class="docutils literal notranslate"><span class="pre">AUG</span></code> in the given string <code class="docutils literal notranslate"><span class="pre">sequence</span></code>.</p>
+<p>Loop over the characters in the string and check whether each three character substring is equal to the ‘start’ codon, <code class="docutils literal notranslate"><span class="pre">AUG</span></code>. Once you find the start codon, use the <code class="docutils literal notranslate"><span class="pre">break</span></code> keyword to exit the loop then return the index position.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">start_index</span><span class="p">(</span><span class="n">sequence</span><span class="p">):</span>
+    <span class="c1"># loop over characters in the string</span>
+    <span class="c1"># return the index of first occurrence of &#39;AUG&#39;</span>
+
+<span class="n">j</span> <span class="o">=</span> <span class="n">start_index</span><span class="p">(</span><span class="n">rna_seq</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
+<span class="c1"># Should print 4</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="step-2">
 <h3>Step 2<a class="headerlink" href="#step-2" title="Permalink to this headline">¶</a></h3>
-<p>Make a second loop which prints out three characters at a time, starting from position <code class="docutils literal notranslate"><span class="pre">j</span></code>.</p>
-<p>Abort the loop when it reaches one of the stop codons <code class="docutils literal notranslate"><span class="pre">UAA</span></code>, <code class="docutils literal notranslate"><span class="pre">UAG</span></code>, or <code class="docutils literal notranslate"><span class="pre">UGA</span></code>.</p>
-<p>Output:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">UUC</span>
-<span class="n">AUA</span>
+<p>Write a function <code class="docutils literal notranslate"><span class="pre">translate</span></code> which returns the one-character amino-acid string corresponding to the given three-character codon.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">translate</span><span class="p">(</span><span class="n">codon</span><span class="p">):</span>
+    <span class="c1"># look up codon in the translation table</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">translate</span><span class="p">(</span><span class="s2">&quot;AAA&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="c1"># Should print &#39;K&#39;</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="step-3">
 <h3>Step 3<a class="headerlink" href="#step-3" title="Permalink to this headline">¶</a></h3>
-<p>Adapt the second loop so that it uses <code class="docutils literal notranslate"><span class="pre">list.index</span></code> to find the position of each codon in the list <code class="docutils literal notranslate"><span class="pre">genetic_code</span></code>, then prints out the character in the equivalent position in <code class="docutils literal notranslate"><span class="pre">amino_acids</span></code>.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">genetic_code</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;GCA&#39;</span><span class="p">,</span> <span class="s1">&#39;GCC&#39;</span><span class="p">,</span> <span class="s1">&#39;GCG&#39;</span><span class="p">,</span> <span class="s1">&#39;GCU&#39;</span><span class="p">,</span> <span class="s1">&#39;UGC&#39;</span><span class="p">,</span> <span class="s1">&#39;UGU&#39;</span><span class="p">,</span> <span class="s1">&#39;GAC&#39;</span><span class="p">,</span> <span class="s1">&#39;GAU&#39;</span><span class="p">,</span> <span class="s1">&#39;GAA&#39;</span><span class="p">,</span>
-                <span class="s1">&#39;GAG&#39;</span><span class="p">,</span> <span class="s1">&#39;UUC&#39;</span><span class="p">,</span> <span class="s1">&#39;UUU&#39;</span><span class="p">,</span> <span class="s1">&#39;GGA&#39;</span><span class="p">,</span> <span class="s1">&#39;GGC&#39;</span><span class="p">,</span> <span class="s1">&#39;GGG&#39;</span><span class="p">,</span> <span class="s1">&#39;GGU&#39;</span><span class="p">,</span> <span class="s1">&#39;CAC&#39;</span><span class="p">,</span> <span class="s1">&#39;CAU&#39;</span><span class="p">,</span>
-                <span class="s1">&#39;AUA&#39;</span><span class="p">,</span> <span class="s1">&#39;AUC&#39;</span><span class="p">,</span> <span class="s1">&#39;AUU&#39;</span><span class="p">,</span> <span class="s1">&#39;AAA&#39;</span><span class="p">,</span> <span class="s1">&#39;AAG&#39;</span><span class="p">,</span> <span class="s1">&#39;UUA&#39;</span><span class="p">,</span> <span class="s1">&#39;UUG&#39;</span><span class="p">,</span> <span class="s1">&#39;CUA&#39;</span><span class="p">,</span> <span class="s1">&#39;CUC&#39;</span><span class="p">,</span>
-                <span class="s1">&#39;CUG&#39;</span><span class="p">,</span> <span class="s1">&#39;CUU&#39;</span><span class="p">,</span> <span class="s1">&#39;AUG&#39;</span><span class="p">,</span> <span class="s1">&#39;AAC&#39;</span><span class="p">,</span> <span class="s1">&#39;AAU&#39;</span><span class="p">,</span> <span class="s1">&#39;CCA&#39;</span><span class="p">,</span> <span class="s1">&#39;CCC&#39;</span><span class="p">,</span> <span class="s1">&#39;CCG&#39;</span><span class="p">,</span> <span class="s1">&#39;CCU&#39;</span><span class="p">,</span>
-                <span class="s1">&#39;CAA&#39;</span><span class="p">,</span> <span class="s1">&#39;CAG&#39;</span><span class="p">,</span> <span class="s1">&#39;AGA&#39;</span><span class="p">,</span> <span class="s1">&#39;AGG&#39;</span><span class="p">,</span> <span class="s1">&#39;CGA&#39;</span><span class="p">,</span> <span class="s1">&#39;CGC&#39;</span><span class="p">,</span> <span class="s1">&#39;CGU&#39;</span><span class="p">,</span> <span class="s1">&#39;CGG&#39;</span><span class="p">,</span> <span class="s1">&#39;AGC&#39;</span><span class="p">,</span>
-                <span class="s1">&#39;AGU&#39;</span><span class="p">,</span> <span class="s1">&#39;UCA&#39;</span><span class="p">,</span> <span class="s1">&#39;UCC&#39;</span><span class="p">,</span> <span class="s1">&#39;UCG&#39;</span><span class="p">,</span> <span class="s1">&#39;UCU&#39;</span><span class="p">,</span> <span class="s1">&#39;ACA&#39;</span><span class="p">,</span> <span class="s1">&#39;ACC&#39;</span><span class="p">,</span> <span class="s1">&#39;ACG&#39;</span><span class="p">,</span> <span class="s1">&#39;ACU&#39;</span><span class="p">,</span>
-                <span class="s1">&#39;GUA&#39;</span><span class="p">,</span> <span class="s1">&#39;GUC&#39;</span><span class="p">,</span> <span class="s1">&#39;GUG&#39;</span><span class="p">,</span> <span class="s1">&#39;GUU&#39;</span><span class="p">,</span> <span class="s1">&#39;UGG&#39;</span><span class="p">,</span> <span class="s1">&#39;UAC&#39;</span><span class="p">,</span> <span class="s1">&#39;UAU&#39;</span><span class="p">,</span> <span class="s1">&#39;UAG&#39;</span><span class="p">,</span> <span class="s1">&#39;UAA&#39;</span><span class="p">,</span> <span class="s1">&#39;UGA&#39;</span><span class="p">]</span>
+<p>Write a function <code class="docutils literal notranslate"><span class="pre">translate_sequence</span></code> which which returns the amino acid sequence corresponding to the given RNA sequence. Your function should call <code class="docutils literal notranslate"><span class="pre">start_index</span></code> in order to determine the start position. Then it should loop over the characters in <code class="docutils literal notranslate"><span class="pre">sequence</span></code>, 3 characters at a time, until one of the stop codons is found. For each 3-character codon, call <code class="docutils literal notranslate"><span class="pre">translate</span></code> to determine the corresponding amino acid character. Return the string formed by concatenating the amino acid characters.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">translate_sequence</span><span class="p">(</span><span class="n">sequence</span><span class="p">):</span>
+    <span class="c1"># Determine the start index</span>
+    <span class="c1"># Loop over 3-character substrings of sequence until one of the three stop codons is found</span>
+    <span class="c1"># Call translate on each codon</span>
+    <span class="c1"># Concatenate the resulting characters</span>
 
-<span class="n">amino_acids</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span>
-               <span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="s1">&#39;H&#39;</span><span class="p">,</span> <span class="s1">&#39;H&#39;</span><span class="p">,</span> <span class="s1">&#39;I&#39;</span><span class="p">,</span> <span class="s1">&#39;I&#39;</span><span class="p">,</span> <span class="s1">&#39;I&#39;</span><span class="p">,</span> <span class="s1">&#39;K&#39;</span><span class="p">,</span> <span class="s1">&#39;K&#39;</span><span class="p">,</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span>
-               <span class="s1">&#39;L&#39;</span><span class="p">,</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="s1">&#39;N&#39;</span><span class="p">,</span> <span class="s1">&#39;N&#39;</span><span class="p">,</span> <span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="s1">&#39;P&#39;</span><span class="p">,</span>
-               <span class="s1">&#39;Q&#39;</span><span class="p">,</span> <span class="s1">&#39;Q&#39;</span><span class="p">,</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;S&#39;</span><span class="p">,</span> <span class="s1">&#39;S&#39;</span><span class="p">,</span> <span class="s1">&#39;S&#39;</span><span class="p">,</span> <span class="s1">&#39;S&#39;</span><span class="p">,</span>
-               <span class="s1">&#39;S&#39;</span><span class="p">,</span> <span class="s1">&#39;S&#39;</span><span class="p">,</span> <span class="s1">&#39;T&#39;</span><span class="p">,</span> <span class="s1">&#39;T&#39;</span><span class="p">,</span> <span class="s1">&#39;T&#39;</span><span class="p">,</span> <span class="s1">&#39;T&#39;</span><span class="p">,</span> <span class="s1">&#39;V&#39;</span><span class="p">,</span> <span class="s1">&#39;V&#39;</span><span class="p">,</span> <span class="s1">&#39;V&#39;</span><span class="p">,</span> <span class="s1">&#39;V&#39;</span><span class="p">,</span> <span class="s1">&#39;W&#39;</span><span class="p">,</span> <span class="s1">&#39;Y&#39;</span><span class="p">,</span>
-               <span class="s1">&#39;Y&#39;</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">]</span>
+<span class="n">rna_seq</span> <span class="o">=</span> <span class="s2">&quot;GCAUAUGUUCAUAUGAAUA&quot;</span>
+<span class="n">aa</span> <span class="o">=</span> <span class="n">translate_seqeuence</span><span class="p">(</span><span class="n">rna_seq</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">aa</span><span class="p">)</span>
+<span class="c1"># should print &#39;MFI&#39;</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="step-4">
 <h3>Step 4<a class="headerlink" href="#step-4" title="Permalink to this headline">¶</a></h3>
 <p>Test your finished program against the following RNA sequences:</p>
-<p><code class="docutils literal notranslate"><span class="pre">rna_1</span> <span class="pre">=</span> <span class="pre">&quot;CAACAAUGCUCCCCGCCUAGUUG&quot;</span></code></p>
-<p>Output:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">L</span>
-<span class="n">P</span>
-<span class="n">A</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rna_1</span> <span class="o">=</span> <span class="s2">&quot;CAACAAUGCUCCCCGCCUAGUUG&quot;</span>
+<span class="c1"># should return &#39;MLPA&#39;</span>
+
+<span class="n">rna_2</span> <span class="o">=</span> <span class="s2">&quot;UAAAAUGAAUAAUAGAUAA&quot;</span>
+<span class="c1"># should return &#39;MNNR&#39;</span>
 </pre></div>
 </div>
-<p><code class="docutils literal notranslate"><span class="pre">rna_2</span> <span class="pre">=</span> <span class="pre">&quot;UAAAAUGAAUAAUAGAUAA&quot;</span></code></p>
-<p>Output:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">N</span>
-<span class="n">N</span>
-<span class="n">R</span>
-</pre></div>
 </div>
-<p>[1] <a class="reference external" href="https://bmm.crick.ac.uk/~chalei01/tutorial/Session6/Rasp_Pi_Visit_6_handout.pdf">https://bmm.crick.ac.uk/~chalei01/tutorial/Session6/Rasp_Pi_Visit_6_handout.pdf</a></p>
 </div>
+<div class="section" id="question-2-optional">
+<h2>Question 2 (Optional)<a class="headerlink" href="#question-2-optional" title="Permalink to this headline">¶</a></h2>
+<p>First upload the following four files into your working folder in Cocalc.</p>
+<p><a href="../tutorial_4/english.txt" download>english.txt</a><br />
+<a href="../tutorial_4/english.txt" download>french.txt</a><br />
+<a href="../tutorial_4/english.txt" download>german.txt</a><br />
+<a href="../tutorial_4/english.txt" download>spanish.txt</a></p>
 <div class="section" id="part-1">
 <h3>Part 1<a class="headerlink" href="#part-1" title="Permalink to this headline">¶</a></h3>
 <p>Write a program which counts the frequency of each letter in the file <code class="docutils literal notranslate"><span class="pre">english.txt</span></code>, and displays the results as a <a class="reference external" href="https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.bar.html">bar graph</a>. Make sure to include upper and lower case characters but do not count them separately. Do not count punctuation or spaces.</p>
@@ -531,8 +466,8 @@ UUC, AUA</p>
 </div>
 <div class="section" id="part-2">
 <h3>Part 2<a class="headerlink" href="#part-2" title="Permalink to this headline">¶</a></h3>
-<p>Let <span class="math notranslate nohighlight">\(A_i\)</span> be the relative frequency of letter <span class="math notranslate nohighlight">\(i\)</span> in text <span class="math notranslate nohighlight">\(A\)</span>, where a is letter 0, b is letter 1 etc. (E.g. if A = “alphabet!”, <span class="math notranslate nohighlight">\(A_0 = 2/8 = 0.25\)</span> since the letter a appears 2 times out of 8 alphabetic characters). We define a similarity index for two pieces of text using the following formula:
-$<span class="math notranslate nohighlight">\(\sum_{i=0}^{25} (A_i - B_i)^2\)</span>$</p>
+<p>Let <span class="math notranslate nohighlight">\(A_i\)</span> be the relative frequency of letter <span class="math notranslate nohighlight">\(i\)</span> in text <span class="math notranslate nohighlight">\(A\)</span>, where a is letter 0, b is letter 1 etc. (E.g. if A = “alphabet!”, <span class="math notranslate nohighlight">\(A_0 = 2/8 = 0.25\)</span> since the letter a appears 2 times out of 8 alphabetic characters). We define a similarity index for two pieces of text using the following formula:</p>
+<p><span class="math notranslate nohighlight">\(\sum_{i=0}^{25} (A_i - B_i)^2\)</span></p>
 <p>Write a program which predicts the language of a piece of text by comparing the text to the each of the four languages English, French, German and Spanish. Relative frequencies for each these languages can be found here: <a class="reference external" href="https://en.wikipedia.org/wiki/Letter_frequency">https://en.wikipedia.org/wiki/Letter_frequency</a>. (Make sure the relative frequences sum to 1!)</p>
 <p>Your program should calculate the value of the similarity index for each of the languages then print the name of the language with the lowest score.</p>
 </div>
@@ -568,6 +503,15 @@ $<span class="math notranslate nohighlight">\(\sum_{i=0}^{25} (A_i - B_i)^2\)</s
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="practice_4.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Practice 4</p>
+            </div>
+        </a>
+    </div>
 
 </div>
         
