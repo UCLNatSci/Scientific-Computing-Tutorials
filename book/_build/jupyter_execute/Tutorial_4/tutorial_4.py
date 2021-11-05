@@ -137,9 +137,9 @@
 # First upload the following four files into your working folder in Cocalc.
 # 
 # <a href="../tutorial_4/english.txt" download>english.txt</a>  
-# <a href="../tutorial_4/english.txt" download>french.txt</a>  
-# <a href="../tutorial_4/english.txt" download>german.txt</a>  
-# <a href="../tutorial_4/english.txt" download>spanish.txt</a>  
+# <a href="../tutorial_4/french.txt" download>french.txt</a>  
+# <a href="../tutorial_4/german.txt" download>german.txt</a>  
+# <a href="../tutorial_4/spanish.txt" download>spanish.txt</a>
 # 
 # ### Part 1
 # Write a program which counts the frequency of each letter in the file `english.txt`, and displays the results as a [bar graph](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.bar.html). Make sure to include upper and lower case characters but do not count them separately. Do not count punctuation or spaces.
