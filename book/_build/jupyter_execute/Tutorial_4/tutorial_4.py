@@ -138,7 +138,6 @@
 # 
 # <a href="../tutorial_4/english.txt" download>english.txt</a>  
 # <a href="../tutorial_4/french.txt" download>french.txt</a>  
-# <a href="../tutorial_4/german.txt" download>german.txt</a>  
 # <a href="../tutorial_4/spanish.txt" download>spanish.txt</a>
 # 
 # ### Part 1
@@ -161,12 +160,6 @@
 # 
 # $\sum_{i=0}^{25} (A_i - B_i)^2$
 # 
-# Write a program which predicts the language of a piece of text by comparing the text to the each of the four languages English, French, German and Spanish. Relative frequencies for each these languages can be found here: https://en.wikipedia.org/wiki/Letter_frequency. (Make sure the relative frequences sum to 1!)
+# Write a program which predicts the language of a piece of text by comparing the text to the each of the thre languages English, French and Spanish. Relative frequencies for each these languages can be found here: https://en.wikipedia.org/wiki/Letter_frequency. (Make sure the relative frequences sum to 1!)
 # 
 # Your program should calculate the value of the similarity index for each of the languages then print the name of the language with the lowest score.
-
-# In[ ]:
-
-
-
-
