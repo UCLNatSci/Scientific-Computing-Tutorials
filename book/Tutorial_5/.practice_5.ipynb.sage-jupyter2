@@ -1,0 +1,10 @@
+{"backend_state":"init","connection_file":"/tmp/xdg-runtime-user/jupyter/kernel-f354e66e-4826-4465-b8e2-797b803a696c.json","kernel":"python3","kernel_error":"","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"de6006","input":"","pos":2,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f6c93d","input":"","pos":6,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"fdb4c6","input":"","pos":4,"type":"cell"}
+{"cell_type":"markdown","id":"192124","input":"## Question 3\nThe logistic equation describes the growth of a population where the growth rate is limited by resources.\n\n$$x_{i+1} = x_i + r(1-x_i/K)x_i$$\n\n$r$ and $K$, both greater than zero, are parameters of the model.\n\nAdapt the 'Population Growth' code in the notes to simulate the growth of a population undergoing logistic growth. Experiment with different values of $r$ and $K$. What do the two parameters represent?","pos":5,"type":"cell"}
+{"cell_type":"markdown","id":"869bb2","input":"# Practice 5","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"d039e9","input":"## Question 1\n\nCreate a 2 by 3 numpy array containing the following data:\n\n$$\n\\begin{bmatrix}\n10 & 12 & 13\\\\\n5 & 6 & 7\n\\end{bmatrix}\n$$\n\nUse slice notation to create one-dimensional arrays containing:\n\n1. The first row\n1. The last column\n\nCalculate:\n\n1. A 3 element array containing the sum of each of the three columns\n1. A 2 element array containing the sum of each of the two rows","pos":1,"type":"cell"}
+{"cell_type":"markdown","id":"f30dcf","input":"## Question 2\n\nA particle follows a trajectory given by the following equations between $t=0$s and $t = 10$s:\n\n$$\nx = 4\\sin(7t)\\\\\ny = 4\\cos(6t)\n$$\n\n\n\n1. Use `np.arange` to create an array `t` containing 100 evenly spaced time points from 0 to 10.\n1. Calculate arrays `x` and `y` containing the x and y co-ordinates\n1. plot the x and y co-ordinates against time on the same graph.\n1. On a separate graph, plot x against y.","pos":3,"type":"cell"}
+{"id":0,"time":1636827101606,"type":"user"}
+{"last_load":1636847100138,"type":"file"}

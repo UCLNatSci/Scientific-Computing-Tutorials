@@ -3,50 +3,7 @@
 
 # # Tutorial 6
 # 
-# ## Practice Questions
-# 
-# ### Question 1
-# 
-# The file `monthly-sunspots.txt` contains one floating point number per line. Write a program which opens the file, reads the numbers into a list, then plots the data as a line graph.
-# 
-# <a href="../tutorial_6/monthly_sunspots.txt" download>monthly-sunspots.txt</a>
-# 
-
-# In[ ]:
-
-
-
-
-
-# ## Question 2
-# The `time()` function returns the number of seconds which have elapsed since January 1 1970.
-# ```
-# from time import time
-# print(time())
-# 
-# 1609431989.253785
-# ```
-# 
-# Write a program which writes the current time to the file `current_time.txt`. Investigate the difference between opening the file in write mode versus append mode.
-
-# In[ ]:
-
-
-
-
-
-# ## Question 3
-# Write a program which creates 9 files named `element_1.txt` to `element_9.txt` containing the name and description of the first 9 chemical elements listed in the file `periodic_table.csv`. E.g., `element_1.txt` should contain:
-# ```
-# Hydrogen
-# colorless gas
-# ```
-# 
-# <a href="../tutorial_6/periodic_table.csv" download>periodic_table.csv</a>
-
-# ## Tutorial Questions
-# 
-# ### Question 1
+# ## Question 1
 # 
 # In this question you will use data from a star catalogue to create a picture that plots the locations of stars, like this:
 # 
@@ -86,7 +43,6 @@
 # 
 # Use `ax.scatter(x, y)` to plot the stars. Try to make it look similar to the image above by passing suitable values for the `marker`, `s` and `color` parameters (see https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.scatter.html).
 # 
-# 
 # ### Step 3
 # 
 # The file `Cas_lines.txt` contains two star names per line. Each pair of star names represent one line to be drawn for the constellation. Write code which iterates over each line in the file, and for each line, determines the x and y coordinates of the two stars, then draws a line between them on the plot.
@@ -101,7 +57,6 @@
 #   - determine the x and y coordinates of each
 #   - use the code above to plot a line between them.
 # 
-# 
 
 # In[ ]:
 
@@ -113,7 +68,7 @@
 # 
 # <a href="../tutorial_6/Ps_kr_G2B.fasta" download>Ps_kr_G2B.fasta</a>
 # 
-# In last week's worksheet you wrote a Python script which converted a RNA sequence into a protein by performing the translation (RNA -> amino acid sequence) process. In this question you will extend the script to:
+# In a previous worksheet you wrote a Python script which converted a RNA sequence into a protein by performing the translation (RNA -> amino acid sequence) process. In this question you will extend the script to:
 # 1. Read a DNA sequence from a `fasta` file
 # 1. Transcribe the sequence (convert from DNA to RNA) by replacing all occurrences of "T" with "U".
 # 1. Translate the sequence (**already done last week**)
@@ -124,7 +79,7 @@
 # ```
 # 
 # ### Step 1
-# Write a script which opens the file `random_60.fasta` and reads the DNA sequence into a string variable. Make sure you discard the line beginning '`>`' and remove newline characters.
+# Write a script which opens the file `Ps_kr_G2B.fasta` and reads the DNA sequence into a string variable. Make sure you discard the line beginning '`>`' and remove newline characters.
 # ### Step 2
 # Convert the DNA sequence to an RNA sequence using `string.replace` to replace each occurrence of `T` with `U`. (e.g. "CTGCTC" should become "CUGCUC").
 # ### Step 3

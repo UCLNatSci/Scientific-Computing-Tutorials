@@ -160,6 +160,6 @@
 # 
 # $\sum_{i=0}^{25} (A_i - B_i)^2$
 # 
-# Write a program which predicts the language of a piece of text by comparing the text to the each of the thre languages English, French and Spanish. Relative frequencies for each these languages can be found here: https://en.wikipedia.org/wiki/Letter_frequency. (Make sure the relative frequences sum to 1!)
+# Write a program which predicts the language of a piece of text by comparing the text to the each of the three languages English, French and Spanish. Relative frequencies for each these languages can be found here: https://en.wikipedia.org/wiki/Letter_frequency. (Make sure the relative frequences sum to 1!)
 # 
 # Your program should calculate the value of the similarity index for each of the languages then print the name of the language with the lowest score.
