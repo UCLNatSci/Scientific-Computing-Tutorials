@@ -109,7 +109,7 @@
 #     # Concatenate the resulting characters
 # 
 # rna_seq = "GCAUAUGUUCAUAUGAAUA"
-# aa = translate_seqeuence(rna_seq)
+# aa = translate_sequence(rna_seq)
 # print(aa)
 # # should print 'MFI'
 # ```

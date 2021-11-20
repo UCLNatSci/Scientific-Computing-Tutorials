@@ -7,4 +7,4 @@
 {"cell_type":"markdown","id":"d039e9","input":"## Question 1\n\nCreate a 2 by 3 numpy array containing the following data:\n\n$$\n\\begin{bmatrix}\n10 & 12 & 13\\\\\n5 & 6 & 7\n\\end{bmatrix}\n$$\n\nUse slice notation to create one-dimensional arrays containing:\n\n1. The first row\n1. The last column\n\nCalculate:\n\n1. A 3 element array containing the sum of each of the three columns\n1. A 2 element array containing the sum of each of the two rows","pos":1,"type":"cell"}
 {"cell_type":"markdown","id":"f30dcf","input":"## Question 2\n\nA particle follows a trajectory given by the following equations between $t=0$s and $t = 10$s:\n\n$$\nx = 4\\sin(7t)\\\\\ny = 4\\cos(6t)\n$$\n\n\n\n1. Use `np.arange` to create an array `t` containing 100 evenly spaced time points from 0 to 10.\n1. Calculate arrays `x` and `y` containing the x and y co-ordinates\n1. plot the x and y co-ordinates against time on the same graph.\n1. On a separate graph, plot x against y.","pos":3,"type":"cell"}
 {"id":0,"time":1636827101606,"type":"user"}
-{"last_load":1636847100138,"type":"file"}
+{"last_load":1637017206959,"type":"file"}

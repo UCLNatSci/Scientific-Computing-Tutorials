@@ -15,6 +15,6 @@ chapters:
 - file: Tutorial_4/tutorial_4.ipynb
 - file: Tutorial_5/practice_5.ipynb
 - file: Tutorial_5/tutorial_5.ipynb
-# - file: Tutorial_6/practice_6.ipynb
-# - file: Tutorial_6/tutorial_6.ipynb
+- file: Tutorial_6/practice_6.ipynb
+- file: Tutorial_6/tutorial_6.ipynb
 
