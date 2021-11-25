@@ -1,9 +1,9 @@
 {"backend_state":"init","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"trust":false,"type":"settings"}
-{"cell_type":"code","exec_count":0,"id":"62e02d","input":"","pos":8,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"11644d","input":"","pos":1,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"62e02d","input":"","pos":5,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"9f7607","input":"","pos":3,"type":"cell"}
-{"cell_type":"code","id":"11644d","input":"","pos":1,"type":"cell"}
 {"cell_type":"markdown","id":"2ed8ec","input":"## Question 3\nWrite a program which creates 9 files named `element_1.txt` to `element_9.txt` containing the name and description of the first 9 chemical elements listed in the file `periodic_table.csv`. E.g., `element_1.txt` should contain:\n```\nHydrogen\ncolorless gas\n```\n\n<a href=\"../tutorial_6/periodic_table.csv\" download>periodic_table.csv</a>","pos":4,"type":"cell"}
 {"cell_type":"markdown","id":"da5b70","input":"## Question 2\nThe `time()` function returns the number of seconds which have elapsed since January 1 1970.\n```\nfrom time import time\nprint(time())\n\n1609431989.253785\n```\n\nWrite a program which writes the current time to the file `current_time.txt`. Investigate the difference between opening the file in write mode versus append mode.","pos":2,"type":"cell"}
 {"cell_type":"markdown","id":"dfacd4","input":"# Practice 6\n## Question 1\n\nThe file `monthly-sunspots.txt` contains one floating point number per line. Write a program which opens the file, reads the numbers into a list or array, then plots the data as a line graph.\n\n<a href=\"../tutorial_6/monthly_sunspots.txt\" download>monthly-sunspots.txt</a>\n","pos":0,"type":"cell"}
-{"id":0,"time":1637426059077,"type":"user"}
-{"last_load":1636841107635,"type":"file"}
+{"id":0,"time":1637848370802,"type":"user"}
+{"last_load":1637848371876,"type":"file"}
