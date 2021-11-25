@@ -6,7 +6,7 @@
 # 
 # The file `monthly-sunspots.txt` contains one floating point number per line. Write a program which opens the file, reads the numbers into a list or array, then plots the data as a line graph.
 # 
-# <a href="../tutorial_6/monthly_sunspots.txt" download>monthly-sunspots.txt</a>
+# <a href="../tutorial_6/monthly-sunspots.txt" download>monthly-sunspots.txt</a>
 # 
 
 # In[ ]:
