@@ -6,6 +6,7 @@
 # ## Question 1
 # 
 # Follow the steps below to create a 3 x 5 numpy array representing the following data:
+# 
 # $$\begin{matrix}
 # 0 & 1 & 2 & 3 & 4 \\
 # 0 & 1.5 & 3 & 4.5 & 6\\
