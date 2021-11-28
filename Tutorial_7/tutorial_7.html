@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tutorial 1 &#8212; Scientific Computing Workbook</title>
+    <title>Tutorial 7 &#8212; Scientific Computing Workbook</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -42,8 +42,6 @@
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -53,8 +51,7 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Practice 2" href="../Tutorial_2/practice_2.html" />
-    <link rel="prev" title="Practice 1" href="practice_1.html" />
+    <link rel="prev" title="Practice 7" href="practice_7.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -98,12 +95,12 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="practice_1.html">
+  <a class="reference internal" href="../Tutorial_1/practice_1.html">
    Practice 1
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Tutorial_1/tutorial_1.html">
    Tutorial 1
   </a>
  </li>
@@ -158,12 +155,12 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../Tutorial_7/practice_7.html">
+  <a class="reference internal" href="practice_7.html">
    Practice 7
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Tutorial_7/tutorial_7.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Tutorial 7
   </a>
  </li>
@@ -208,7 +205,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Tutorial_1/tutorial_1.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/Tutorial_7/tutorial_7.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -242,20 +239,27 @@
   <a class="reference internal nav-link" href="#question-1">
    Question 1
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#part-1">
+     Part 1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#part-2">
+     Part 2
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#part-3">
+     Part 3
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#question-2">
    Question 2
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#question-3">
-   Question 3
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#question-4-the-collatz-problem">
-   Question 4 (The Collatz Problem)
   </a>
  </li>
 </ul>
@@ -269,67 +273,48 @@
         
               <div>
                 
-  <div class="section" id="tutorial-1">
-<h1>Tutorial 1<a class="headerlink" href="#tutorial-1" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="tutorial-7">
+<h1>Tutorial 7<a class="headerlink" href="#tutorial-7" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="question-1">
 <h2>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline">¶</a></h2>
-<p>A time <code class="docutils literal notranslate"><span class="pre">t</span></code> in seconds can be converted to days, hours, minutes and seconds using integer division:</p>
+<p>The folder <code class="docutils literal notranslate"><span class="pre">particle</span></code> contains a sequence of images of a bead undergoing <a class="reference external" href="https://en.wikipedia.org/wiki/Brownian_motion">brownian motion</a>. Your goal is to track the movement of the bead by identifying its position in each of the frames.</p>
+<blockquote>
+<div><p>Download <a href="../tutorial_7/particle.zip" download>particle.zip</a> then upload it to Cocalc. Unzip the folder by clicking the file then the ‘Extract Files’ button in Cocalc.</p>
+</div></blockquote>
+<div class="section" id="part-1">
+<h3>Part 1<a class="headerlink" href="#part-1" title="Permalink to this headline">¶</a></h3>
+<p>Follow the steps in the notes to determine the (x, y) co-ordinates of the bead in the image <code class="docutils literal notranslate"><span class="pre">particle/frame0.png</span></code>.</p>
 <ol class="simple">
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 60; set <code class="docutils literal notranslate"><span class="pre">t</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">s</span></code>.</p></li>
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 60; set <code class="docutils literal notranslate"><span class="pre">t</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">m</span></code>.</p></li>
-<li><p>Divide <code class="docutils literal notranslate"><span class="pre">t</span></code> by 24; set <code class="docutils literal notranslate"><span class="pre">d</span></code> to the quotient and call the remainder <code class="docutils literal notranslate"><span class="pre">h</span></code>.</p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">np.imread</span></code> to convert the image file to a numpy array.</p></li>
+<li><p>Convert the image to greyscale by summing along the final axis.</p></li>
+<li><p>Threshold the array. Determine a value for the threshold which results in just a single ‘blob’.</p></li>
+<li><p>Determine the location using the function <code class="docutils literal notranslate"><span class="pre">sn.center_of_mass</span></code> (you do not need to determine the largest blob since there should be only one!)</p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">plt.imshow</span></code> and <code class="docutils literal notranslate"><span class="pre">plt.scatter</span></code> to mark the location of the bead on the image, like this:</p></li>
 </ol>
-<p>Calculate the number of days, hours, minutes and seconds in one million seconds. Display the result as follows:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1000000</span> <span class="n">seconds</span> <span class="ow">is</span> <span class="n">xx</span> <span class="n">days</span> <span class="n">H</span><span class="p">:</span><span class="n">M</span><span class="p">:</span><span class="n">S</span>
+<p><img alt="" src="../_images/q1.png" /></p>
+</div>
+<div class="section" id="part-2">
+<h3>Part 2<a class="headerlink" href="#part-2" title="Permalink to this headline">¶</a></h3>
+<p>Use your code from Question 1 to write a Python function <code class="docutils literal notranslate"><span class="pre">get_particle_location(filename)</span></code> which returns the (x, y) co-ordinates of the bead in the image file <code class="docutils literal notranslate"><span class="pre">filename</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">loc</span> <span class="o">=</span> <span class="n">get_particle_location</span><span class="p">(</span><span class="s2">&quot;particle/frame0.png&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">loc</span><span class="p">)</span>
+<span class="p">(</span><span class="mf">98.92857142857143</span><span class="p">,</span> <span class="mf">71.60714285714286</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+<div class="section" id="part-3">
+<h3>Part 3<a class="headerlink" href="#part-3" title="Permalink to this headline">¶</a></h3>
+<p>By calling your function <code class="docutils literal notranslate"><span class="pre">get_particle_location</span></code> on each of the files, construct a 2 by 10 numpy array containing the co-ordinates of the bead in each of the 10 frames.</p>
+<p>Make a plot of x vs time, y vs time and y vs x. Make sure you scale the axes so that they correspond to the dimensions of the image, as below.</p>
+<p><img alt="" src="../_images/b2.png" /> <img alt="" src="../_images/b3.png" /> <img alt="" src="../_images/b1.png" /></p>
 </div>
 </div>
 <div class="section" id="question-2">
 <h2>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline">¶</a></h2>
-<p>Iodine-131 is a radioisotope with a half-life <span class="math notranslate nohighlight">\(t_\mathrm{half} = 8.02\)</span> days.</p>
-<ol class="simple">
-<li><p>Use the equation <span class="math notranslate nohighlight">\(r = \left(\frac{1}{2}\right) ^ {1/t_\mathrm{half}}\)</span> to calculate the daily decay rate (i.e. the proportion of a sample of Iodine 131 that decays in one day).</p></li>
-<li><p>A sample of radioactive material containing Iodine-131 has an activity of <span class="math notranslate nohighlight">\(1.67 \times 10^{12}\)</span> Becquerels. Write a program which calculates the number of days it takes for the sample to reach an activity of <span class="math notranslate nohighlight">\(10000\)</span> Becquerels.</p></li>
-<li><p>Print the activity of the sample once every 7 days.</p></li>
-</ol>
-</div>
-<div class="section" id="question-3">
-<h2>Question 3<a class="headerlink" href="#question-3" title="Permalink to this headline">¶</a></h2>
-<p>We can calculate how many digits there are in a number by repeatedly dividing by 10 until the number is less than one.</p>
-<ol class="simple">
-<li><p>Write peudo-code for this calculation.</p></li>
-<li><p>Write a Python program to implement it, displaying the result in the format <code class="docutils literal notranslate"><span class="pre">1234</span> <span class="pre">has</span> <span class="pre">4</span> <span class="pre">digits.</span></code></p></li>
-<li><p>Test your program with a variety of numbers.</p></li>
-<li><p>Extend your program so that it works for negative numbers.</p></li>
-</ol>
-</div>
-<div class="section" id="question-4-the-collatz-problem">
-<h2>Question 4 (The Collatz Problem)<a class="headerlink" href="#question-4-the-collatz-problem" title="Permalink to this headline">¶</a></h2>
-<p>Given a positive integer <code class="docutils literal notranslate"><span class="pre">n</span></code>, the Collatz Operation is defined as follows:</p>
-<ul class="simple">
-<li><p>If the number is even, divide it by two</p></li>
-<li><p>If the number is odd, triple it and add one</p></li>
-</ul>
-<p>Repeatedly applying the Collatz Operation results in a sequence of integers which eventually reaches the number 1.</p>
-<blockquote>
-<div><p>Write a program which generates the Collatz Sequence for a given positive integer <span class="math notranslate nohighlight">\(n\)</span>.</p>
-</div></blockquote>
-<p>For example, if <span class="math notranslate nohighlight">\(n = 5\)</span> then your program should produce the following:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">5</span>
-<span class="mi">16</span>
-<span class="mi">8</span>
-<span class="mi">4</span>
-<span class="mi">2</span>
-<span class="mi">1</span>
-</pre></div>
-</div>
-<p>Given a positive integer <span class="math notranslate nohighlight">\(n\)</span>, define the Collatz Number to be the length of the Collatz Sequence for <span class="math notranslate nohighlight">\(n\)</span>. For example, the Collatz number of 5 is 6.</p>
-<blockquote>
-<div><p>Write a program which calculates and prints the Collatz number of a given number <span class="math notranslate nohighlight">\(n\)</span>. For example, if <span class="math notranslate nohighlight">\(n=5\)</span> your program should print <code class="docutils literal notranslate"><span class="pre">The</span> <span class="pre">Collatz</span> <span class="pre">number</span> <span class="pre">of</span> <span class="pre">5</span> <span class="pre">is</span> <span class="pre">6</span></code>.</p>
-</div></blockquote>
-<blockquote>
-<div><p>Write a program which finds the smallest number <span class="math notranslate nohighlight">\(n\)</span> whose Collatz Number is greater than 200.</p>
-</div></blockquote>
+<p>Repeat the above question for the noisy images in the folder <code class="docutils literal notranslate"><span class="pre">particle_noisy</span></code>.</p>
+<p><a href="../tutorial_7/particle-noisy.zip" download>particle_noisy.zip</a></p>
+<p>For Part 1, you will have to choose a suitable threshold then pick the blob with the largest size, as in the notes.</p>
+<p>For Part 3, can you find a value of the threshold that works for all of the images? If not, how could you solve this?</p>
 </div>
 </div>
 
@@ -346,7 +331,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./Tutorial_1"
+            path: "./Tutorial_7"
         },
         predefinedOutput: true
     }
@@ -363,23 +348,14 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="practice_1.html" title="previous page">
+        <a class="left-prev" href="practice_7.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Practice 1</p>
+                <p class="prevnext-title">Practice 7</p>
             </div>
         </a>
     </div>
-     <div id="next">
-        <a class="right-next" href="../Tutorial_2/practice_2.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Practice 2</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
 
 </div>
         
