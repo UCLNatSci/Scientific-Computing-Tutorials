@@ -41,15 +41,9 @@
 # 
 # Repeat the above question for the noisy images in the folder `particle_noisy`.
 # 
-# <a href="../tutorial_7/particle-noisy.zip" download>particle_noisy.zip</a>
+# <a href="../tutorial_7/particle_noisy.zip" download>particle_noisy.zip</a>
 # 
 # For Part 1, you will have to choose a suitable threshold then pick the blob with the largest size, as in the notes.
 # 
 # For Part 3, can you find a value of the threshold that works for all of the images? If not, how could you solve this?
 # 
-
-# In[ ]:
-
-
-
-
