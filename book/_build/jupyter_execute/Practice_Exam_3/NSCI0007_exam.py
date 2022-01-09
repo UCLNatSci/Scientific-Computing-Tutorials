@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # NSCI0007 Practice Exam 3
-# **Exam Start**: N/A
+# # NSCI0007 Exam
+# **Exam Start**: N/A  
 # **Exam End**: N/A
 # 
 # ## Instructions
