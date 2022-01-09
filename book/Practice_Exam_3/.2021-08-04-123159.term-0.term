@@ -1,0 +1,536 @@
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ [K]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_draft.ipynb.[Kexam_lsa_draft.ipynb[C[1P.ipynb[1P.ipynb[1P.ipynb[1P.ipynb[1P.ipynbf.ipynbi.ipynbn.ipynba.ipynbl.ipynb
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmaking output directory... [39;49;00mdone
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Did not execute exam_lsa_final. Set jupyter_execute_notebooks to `force` to execute
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Did not execute exam_lsa_final. Set jupyter_execute_notebooks to `force` to execute
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Did not execute exam_lsa_final. Set jupyter_execute_notebooks to `force` to execute
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 0 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mno targets are out of date.[39;49;00m
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --force
+Usage: jupyter-book build [OPTIONS] PATH_SOURCE
+Try 'jupyter-book build -h' for help.
+
+Error: no such option: --force
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --force[K[1@=[1P[1@-[1@-[1@f[1@o[1@r[1@c[1@e[1@ [1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C-exam_lsa_final.ipynb-exam_lsa_final.ipynbfexam_lsa_final.ipynboexam_lsa_final.ipynbrexam_lsa_final.ipynbcexam_lsa_final.ipynb[Cexam_lsa_final.ipynb exam_lsa_final.ipynb
+Usage: jupyter-book build [OPTIONS] PATH_SOURCE
+Try 'jupyter-book build -h' for help.
+
+Error: no such option: --force
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build --force exam_lsa_final.ipynbexam_lsa_final.ipynb --force[K[K[K[K[Kall
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Did not execute exam_lsa_final. Set jupyter_execute_notebooks to `force` to execute
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 0 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mno targets are out of date.[39;49;00m
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Did not execute exam_lsa_final. Set jupyter_execute_notebooks to `force` to execute
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Executing: exam_lsa_final in: /home/user/Exam_LSA
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Executing: exam_lsa_final in: /home/user/Exam_LSA
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 0 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mno targets are out of date.[39;49;00m
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Executing: exam_lsa_final in: /home/user/Exam_LSA
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Executing: exam_lsa_final in: /home/user/Exam_LSA
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Executing: exam_lsa_final in: /home/user/Exam_LSA
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Executing: exam_lsa_final in: /home/user/Exam_LSA
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Executing: exam_lsa_final in: /home/user/Exam_LSA
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 0 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mno targets are out of date.[39;49;00m
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Executing: exam_lsa_final in: /home/user/Exam_LSA
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ ]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ ]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ ]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ ]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ jupyter-book build exam_lsa_final.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.2[0m
+[34m[1mSource Folder: [0m/home/user/Exam_LSA
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_LSA/_build/_page/exam_lsa_final/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                       Did not execute exam_lsa_final. Set jupyter_execute_notebooks to `force` to execute
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mexam_lsa_final[39;49;00m                                                                                                                                                                                                                                        
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                                                            [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                                                            
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/exam_lsa_final/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/exam_lsa_final/html/
+    Open your page at: _build/_page/exam_lsa_final/html/exam_lsa_final.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ ]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ ]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ [K]0;~/Exam_LSA[01;34m~/Exam_LSA[00m$ ]0;~/Exam_Material[01;34m~/Exam_Material[00m$ [K]0;~/Exam_Material[01;34m~/Exam_Material[00m$ ghp-import -n -f -p book/_build/html/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cit push[Khp-import -n -f -p book/_build/html/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cit push[Kcommit -m"."[5Padd ./*[1Pstatusjb build book--all book[6Pbookcd ../Scientific-Computing-Answers/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pjb build bookcd ../Scientific-Computing-Answers/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pjb build bookcdd ../Scientific-Computing-Answers/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pjb build book/cd ../../Scientific-Computing-Tutorials/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pjb build book/cdd ../Scientific-Computing-Answers/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pjb build bookcd ../Scientific-Computing-Answers/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pjb build book--all book[6Pbook[3Pgit statusadd ./*commit -m"."[8Ppushhp-import -n -f -p book/_build/html/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kjb build exam_lsa_f[K[K[K[K[K[K[K[K[K[K[KNSC NSC[C[C[CI0007_examC[C[K.ipynb --all
+[32m[1mRunning Jupyter-Book v0.11.3[0m
+[34m[1mSource Folder: [0m/home/user/Exam_Material
+[34m[1mConfig Path: [0mNone
+[34m[1mOutput Path: [0m/home/user/Exam_Material/_build/_page/NSCI0007_exam/html
+[01mRunning Sphinx v3.5.4[39;49;00m
+[01mmaking output directory... [39;49;00mdone
+[01mmyst v0.13.7:[39;49;00m MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, update_mathjax=True, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution'], disable_syntax=[], url_schemes=['mailto', 'http', 'https'], heading_anchors=None, html_meta=[], footnote_transition=True, substitutions=[], sub_delimiters=['{', '}'])
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mNSCI0007_exam[39;49;00m                                                                                                                                                                                                      Did not execute NSCI0007_exam. Set jupyter_execute_notebooks to `force` to execute
+
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mNSCI0007_exam[39;49;00m                                                                                                                                                                                                       
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 33%] [33mgraph1.png[39;49;00m                                                                                                                                                                                                          [01mcopying images... [39;49;00m[ 66%] [33mgraph2.png[39;49;00m                                                                                                                                                                                                          [01mcopying images... [39;49;00m[100%] [33mgraph3.png[39;49;00m                                                                                                                                                                                                          
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in _build/_page/NSCI0007_exam/html.
+
+[92m===============================================================================[0m
+
+
+Page build finished.
+    Your page folder is: _build/_page/NSCI0007_exam/html/
+    Open your page at: _build/_page/NSCI0007_exam/html/NSCI0007_exam.html
+
+
+[92m===============================================================================[0m
+
+]0;~/Exam_Material[01;34m~/Exam_Material[00m$ ]0;~/Exam_Material[01;34m~/Exam_Material[00m$ ]0;~/Exam_Material[01;34m~/Exam_Material[00m$ 

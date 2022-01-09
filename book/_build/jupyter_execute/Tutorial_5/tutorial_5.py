@@ -65,15 +65,15 @@
 # 
 # 1. With parameter values $a = 0.1$ and $b = 0.00005$ and the initial populations $S_0 = 20000$ and $I_0 = 100$, simulate the infection for a duration 100 days. Plot the resulting arrays `S` and `I` on the same figure. [You should see that the number of infected people peaks at around 15000 at about day 15, while the number of susceptible people drops to about zero at about the same time].
 # 
-# The number of recovered people $R_i$ is given by $P = S_i + I_i + R_i$ where the total population $P$ is a constant.
+#  The number of recovered people $R_i$ is given by $P = S_i + I_i + R_i$ where the total population $P$ is a constant.
 # 
 # 2. Given the total population $P = S_0 + I_0$, calculate an array `R` representing the number of recovered people over the 100 days. Plot `R` on the graph together with `S` and `I`.
 # 
-# The infection rate parameter $b$ can be influenced by public policy - for example the imposition of social distancing, vaccination or other measures. 
+#  The infection rate parameter $b$ can be influenced by public policy - for example the imposition of social distancing, vaccination or other measures. 
 # 
 # 3. Experiment with various values of $b$ to see how it affects the outbreak. Roughly what is the minimum value of $b$ which results in an epidemic? (We say there is an epidemic if $I_i$ initially rises to a peak, however small).
 # 
-# The Government would like to understand how $b$ affects the the peak value of $I_i$. 
+#  The Government would like to understand how $b$ affects the the peak value of $I_i$. 
 # 
 # 4. Write a function `max_I(a, b)` which runs the simulation with the given values for the parameters $a$ and $b$ and returns the maximum value of `I_i`. Then, write a loop which calculates `max_I(a, b)` for values of `b` ranging from 0.0 to 0.00005. Plot a graph showing peak $I_i$ against $b$.
 # 
